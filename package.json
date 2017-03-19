@@ -1,0 +1,27 @@
+{
+  "name": "site-crawler",
+  "version": "1.0.0",
+  "description": "to crawl and search list of sites for the ones which are actually clubs and if they are the correct clubs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "heag",
+    "crawler",
+    "search",
+    "clubs",
+    "darmstadt",
+    "hessen"
+  ],
+  "author": "Masaud",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "csv-parse": "^1.2.0",
+    "csv-parser": "^1.11.0",
+    "request": "^2.80.0",
+    "url-parse": "^1.1.8",
+    "xlsx": "^0.9.3"
+  }
+}
