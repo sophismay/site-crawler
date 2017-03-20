@@ -26,11 +26,11 @@ class CsvLoader {
 				// hausenr, bemerkugen, alternates[0-3], __V, sitz
 				//console.log('arrived \n', data);
 				// get website and request and check for relative links and calculate confidence level
-				R.handleRow(row)
+				R.handleRow(row);
 				self.data.push(row);
 			})
 			.on('end', function(){
-				console.log('DONE LOADING CSV DATA')
+				console.log('DONE LOADING CSV DATA');
 				self.loadDone = true;
 				//console.log(self);
 			});
@@ -105,7 +105,7 @@ class Request {
 		var dataWithRowAndVisits = this.getRowData(id);
 		// TODO: handle well
 		if(!dataWithRowAndVisits) {
-			console.error('NO ALTERNaTIve');
+			//console.error('NO ALTERNaTIve');
 			return row.webpage;
 			//return null;
 		} else {
@@ -118,10 +118,10 @@ class Request {
 			var alternatives = [];
 			var next = undefined;
 			//alternatives.push(dataWithRowAndVisits.row.webpage);
-			alternatives.push(dataWithRowAndVisits.row['alternative[0]']);
-			alternatives.push(dataWithRowAndVisits.row['alternative[1]']);
-			alternatives.push(dataWithRowAndVisits.row['alternative[2]']);
-			alternatives.push(dataWithRowAndVisits.row['alternative[3]']);
+			alternatives.push(dataWithRowAndVisits.row['alternates[0]']);
+			alternatives.push(dataWithRowAndVisits.row['alternates[1]']);
+			alternatives.push(dataWithRowAndVisits.row['alternates[2]']);
+			alternatives.push(dataWithRowAndVisits.row['alternates[3]']);
 			// with the assumption of order and that requests and attempted in order
 			alternatives.forEach(function(alt, ind) {
 				// make sure next alternative is only set if not previously set
@@ -152,30 +152,31 @@ class Request {
 	handleRow(row) {
 		// get next webpage to attempt request
 		var nextPagetoAttempt = this.getNextAlternativeWebsite(row);
+		console.log('next page attempt ', nextPagetoAttempt, row);
 		// only try if there's a page to attempt
 		if(nextPagetoAttempt) {
 			// save attempt
 			this.saveVisit(row, nextPagetoAttempt);
 			// compute base url
 			var url = new URL(nextPagetoAttempt);
-			console.log(url);
+			//console.log(url);
 			// handling possible invlid URI error due to lack of protocol information
 			if(!url.protocol){
 				url.protocol = 'http:';
 				url.hostname = 'www.' + url.href;
 			} 
 			var baseUrl = url.protocol + "//" + url.hostname;
-			console.log('BASE URL; ', baseUrl);
+			//console.log('BASE URL; ', baseUrl);
 			// request for page body with url
 			this.requestPageBody(baseUrl, (err, $) => {
 				//this.saveVisit(row, row.webpage);
 				if(err){
 					// Error requesting page, try alternatives
 					// call function again to attempt next alternative
-					console.log("ERROR requesting page")
+					console.log("ERROR requesting page ", baseUrl);
 					this.handleRow(row);
 				} else {
-					console.log("CHeerio: ", $)
+					//console.log("CHeerio: ", $)
 					var relativeLinks = this.collectRelativeLinks($, baseUrl);
 					//console.log(relativeLinks);
 					//console.log('SITE PAGES object', sitePages);
@@ -217,15 +218,15 @@ class Request {
 	}
 
 	requestPageBody(baseUrl, cb) {
-		console.log('Visiting Page: ', baseUrl);
+		//console.log('Visiting Page: ', baseUrl);
 		request(baseUrl, (error, response, body) => {
 			if(error) {
 				this.unresolvedSites.push({ baseUrl: baseUrl, error: error })
 				return cb(error);
 			}
 			// Check status code (200 is HTTP OK)
-			console.log("Error request page: ",  error);
-			console.log("Status code: " + response.statusCode);
+			//console.log("Error request page: ",  error);
+			//console.log("Status code: " + response.statusCode);
 			if(response.statusCode !== 200) {
 				return cb({ msg: "Status code NOT 200" }, null);
 			}
@@ -238,7 +239,7 @@ class Request {
 
 	collectRelativeLinks($, baseUrl) {
 		var relativeLinks = $("a[href^='/']");
-	    console.log("Found " + relativeLinks.length + " relative links on website " + baseUrl);
+	    //console.log("Found " + relativeLinks.length + " relative links on website " + baseUrl);
 	    //console.log(relativeLinks);
 	    // obtain only relative links from structure
 	    var rLinks = [];
