@@ -44,7 +44,7 @@ var L = new Loader();
 
 // iterate through websites
 // and assign confidence depending on existence of paths kontakt and impressum
-websites.forEach((website, index) => {
+/*websites.forEach((website, index) => {
 	var url = new URL(website)
 	var baseUrl = url.protocol + "//" + url.hostname;
 	console.log('BASE URL; ', baseUrl)
@@ -60,7 +60,7 @@ websites.forEach((website, index) => {
 	});
 	
 });
-
+*/
 function collectRelativeLinks($, baseUrl) {
 	var relativeLinks = $("a[href^='/']");
     console.log("Found " + relativeLinks.length + " relative links on page");
@@ -95,7 +95,7 @@ function requestPageBody(baseUrl, cb) {
 	console.log('Visiting Page: ', baseUrl);
 	request(baseUrl, (error, response, body) => {
 		// Check status code (200 is HTTP OK)
-		console.log("Status code: " + response.statusCode);
+		//console.log("Status code: " + response.statusCode);
 		if(response.statusCode !== 200) {
 			return cb({ msg: "Status code NOT 200" }, null);
 		}

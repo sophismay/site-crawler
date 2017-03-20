@@ -20,6 +20,7 @@
     "cheerio": "^0.22.0",
     "csv-parse": "^1.2.0",
     "csv-parser": "^1.11.0",
+    "keyword-extractor": "0.0.13",
     "request": "^2.80.0",
     "url-parse": "^1.1.8",
     "xlsx": "^0.9.3"

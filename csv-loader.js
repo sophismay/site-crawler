@@ -13,6 +13,8 @@ var stream = csv({
 	strict: false    // require column length NOT match headers length 
 });
 
+var keyword_extractor = require("keyword-extractor");
+
 class CsvLoader {
 	constructor() {
 		var self = this;
@@ -31,6 +33,7 @@ class CsvLoader {
 			})
 			.on('end', function(){
 				console.log('DONE LOADING CSV DATA');
+				// call R function from here
 				self.loadDone = true;
 				//console.log(self);
 			});
@@ -62,8 +65,21 @@ class Request {
 		// keep track of unresolved sites which couldn't be parsed due to errors
 		this.unresolvedSites = []
 		// visited websites, so the next alternative can be inferred
-		// { id: { row: row-data, visited: [visited_sites] }
+		// { id: { row: row-data, visited: [visited_sites], confidenceLevels: [Number] } }
+		// array of confidence levels must be same order as visited sites
 		this.visited = {};
+
+		// data structure to store details of clubs with ConfidenceLevel above threshold
+		// [{name: String, url: String}]
+		this.confirmedClubs = [];
+
+		// data structure to store details of clubs which failed all 3 CL tests(including alternatives)
+		// even though impressum was found
+		// [{name: String, urls: [{url: String, CL: Number}]}]
+		this.unconfirmedClubs = [];
+		// data structure for clubs with no impressum found
+		// 
+		this.failedClubs = [];
 	}
 
 	// check if page visited/ tried by id
@@ -91,7 +107,7 @@ class Request {
 			temp.visited.push(webpage);
 			this.visited[row._id] = temp;
 		} else {
-			this.visited[row._id] = { row: row, visited: [webpage] };
+			this.visited[row._id] = { row: row, visited: [webpage], confidenceLevels: [] };
 		}
 	}
 
@@ -141,6 +157,54 @@ class Request {
 		}
 	}
 
+	getImpressumLink(links) {
+		var impressumLink = undefined;
+		links.forEach(function(link, index){
+			if(/impressum/i.test(link)) {
+			//if(link.toLowerCase().indexOf('impressum') != -1) {
+				impressumLink = link;
+			}
+		});
+		return impressumLink;
+	}
+
+	saveConfidenceLevel(id, level) {
+		if(this.idExistsInVisited(id)) {
+			var temp = this.visited[id];
+			temp.confidenceLevels.push(level);
+			this.visited[id] = temp;
+		}
+	}
+
+	pageConfidence(body, name, cb) {
+			var extraction_result = keyword_extractor.extract(name,{
+                language:"german",
+                return_changed_case:false,
+                remove_duplicates: true
+
+           });
+			var resultLength = extraction_result.length;
+			var encountered = 0;
+			extraction_result.forEach(function (keyword) {
+				var matcher = new RegExp(keyword, 'i');
+				if(matcher.test(body)) {
+					encountered += 1;
+				}
+			});
+			// check encountered and confirm
+			// if size is 2, expect total words occurence
+			var ratio = encountered/resultLength;
+			if(resultLength <= 2) {
+				if(ratio == 1) {
+					return cb(1);
+				} else {
+					return cb(0);
+				}
+			} else {
+				return cb(ratio);
+			}
+	}
+
 	// function called with row
 	// get next attempt from row
 	// save attempt (visit)
@@ -150,15 +214,17 @@ class Request {
 	//   call this function again
 	//   // calling function again will attempt request with next alternative
 	handleRow(row) {
+		var self = this;
 		// get next webpage to attempt request
 		var nextPagetoAttempt = this.getNextAlternativeWebsite(row);
-		console.log('next page attempt ', nextPagetoAttempt, row);
+		//console.log('next page attempt ', nextPagetoAttempt, row);
 		// only try if there's a page to attempt
 		if(nextPagetoAttempt) {
 			// save attempt
 			this.saveVisit(row, nextPagetoAttempt);
 			// compute base url
 			var url = new URL(nextPagetoAttempt);
+
 			//console.log(url);
 			// handling possible invlid URI error due to lack of protocol information
 			if(!url.protocol){
@@ -170,18 +236,53 @@ class Request {
 			// request for page body with url
 			this.requestPageBody(baseUrl, (err, $) => {
 				//this.saveVisit(row, row.webpage);
+				// do this when no impressum
 				if(err){
 					// Error requesting page, try alternatives
 					// call function again to attempt next alternative
-					console.log("ERROR requesting page ", baseUrl);
+					//console.log("ERROR requesting page ", baseUrl);
 					this.handleRow(row);
 				} else {
 					//console.log("CHeerio: ", $)
 					var relativeLinks = this.collectRelativeLinks($, baseUrl);
+					// if impressum exists, then query impressum page
+					var impressumLink = this.getImpressumLink(relativeLinks);
+					if(impressumLink != undefined) {
+						var impressumUrl = url.protocol + "//" + url.hostname + "/" + impressumLink; 
+						//if(impressumUrl.indexOf('TopNav') != -1) {
+							console.log('impressum URL: ', impressumUrl);
+						//}
+						
+						this.requestPageBody(impressumUrl, function(err, $) {
+							if(err) {
+								//console.log('ErRROR REQUESTING IMPRESSUM LINK', err);
+								return;
+							}
+							//console.log('IMPRESSUM BODY: ', $);
+							//console.log($.html());
+							self.pageConfidence($.html(), row.name, function(confidenceLevel) {
+								console.log(confidenceLevel);
+								// check next alternative if lower than threshold
+								var threshold = 0.6;
+								// same confidence level before checking next alternative
+								this.saveConfidenceLevel(row._id, cl);
+								if(threshold <= confidenceLevel) {
+
+								} else {
+									this.handleRow(row);
+								}
+							});
+						});
+					} else {
+						// query next alternative
+						this.handleRow(row);
+					}
 					//console.log(relativeLinks);
 					//console.log('SITE PAGES object', sitePages);
 				}
 			});
+		} else {
+			// TODO: if no next alternative
 		}
 
 		/*if(row.webpage) {
@@ -245,8 +346,8 @@ class Request {
 	    var rLinks = [];
 	    var count = 1;
 	    relativeLinks.each( (l, i) => {
-	    	var hrefWithoutSlash = relativeLinks[l].attribs.href.replace('/', '')
-	   		rLinks.push(hrefWithoutSlash.toLowerCase());
+	    	var hrefWithoutSlash = relativeLinks[l].attribs.href.replace('/', '');
+	   		rLinks.push(hrefWithoutSlash);
 	    	//rLinks.push($(this).attr('href'));
 	    //console.log('rLinks')
 	    	
