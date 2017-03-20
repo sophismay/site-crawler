@@ -95,12 +95,95 @@ class Request {
 		}
 	}
 
-	getNextAlternativeWebsite() {
-
+	getRowData(id) {
+		return this.idExistsInVisited(id) ? this.visited[id] : null;
 	}
 
+	// go through visited pages and get next alternative from row
+	getNextAlternativeWebsite(row) {
+		var id = row._id;
+		var dataWithRowAndVisits = this.getRowData(id);
+		// TODO: handle well
+		if(!dataWithRowAndVisits) {
+			console.error('NO ALTERNaTIve');
+			return row.webpage;
+			//return null;
+		} else {
+			var visits = dataWithRowAndVisits.visited;
+			// nothing visited so send first webpage
+			if(!visits) {
+				return dataWithRowAndVisits.row.webpage;
+			}
+			// get next alternative
+			var alternatives = [];
+			var next = undefined;
+			//alternatives.push(dataWithRowAndVisits.row.webpage);
+			alternatives.push(dataWithRowAndVisits.row['alternative[0]']);
+			alternatives.push(dataWithRowAndVisits.row['alternative[1]']);
+			alternatives.push(dataWithRowAndVisits.row['alternative[2]']);
+			alternatives.push(dataWithRowAndVisits.row['alternative[3]']);
+			// with the assumption of order and that requests and attempted in order
+			alternatives.forEach(function(alt, ind) {
+				// make sure next alternative is only set if not previously set
+				// to avoid value override
+				if(visits.indexOf(alt) == -1) {
+					if(next == undefined) {
+						next = alt;
+					}
+				}
+			});
+			// if undefined next alternative is first alternative
+			/*if(next == undefined) {
+				next = dataWithRowAndVisits.row['alternative[0]'];
+			}*/
+
+			return next;
+		}
+	}
+
+	// function called with row
+	// get next attempt from row
+	// save attempt (visit)
+	// compute base url
+	// request page body with url
+	// if error:
+	//   call this function again
+	//   // calling function again will attempt request with next alternative
 	handleRow(row) {
-		if(row.webpage) {
+		// get next webpage to attempt request
+		var nextPagetoAttempt = this.getNextAlternativeWebsite(row);
+		// only try if there's a page to attempt
+		if(nextPagetoAttempt) {
+			// save attempt
+			this.saveVisit(row, nextPagetoAttempt);
+			// compute base url
+			var url = new URL(nextPagetoAttempt);
+			console.log(url);
+			// handling possible invlid URI error due to lack of protocol information
+			if(!url.protocol){
+				url.protocol = 'http:';
+				url.hostname = 'www.' + url.href;
+			} 
+			var baseUrl = url.protocol + "//" + url.hostname;
+			console.log('BASE URL; ', baseUrl);
+			// request for page body with url
+			this.requestPageBody(baseUrl, (err, $) => {
+				//this.saveVisit(row, row.webpage);
+				if(err){
+					// Error requesting page, try alternatives
+					// call function again to attempt next alternative
+					console.log("ERROR requesting page")
+					this.handleRow(row);
+				} else {
+					console.log("CHeerio: ", $)
+					var relativeLinks = this.collectRelativeLinks($, baseUrl);
+					//console.log(relativeLinks);
+					//console.log('SITE PAGES object', sitePages);
+				}
+			});
+		}
+
+		/*if(row.webpage) {
 			var url = new URL(row.webpage);
 			console.log(url);
 			//var baseUrl = url.protocol + "//" + url.hostname;
@@ -117,6 +200,7 @@ class Request {
 					// Error requesting page, try alternatives
 					// TODO: check again definition of isVisited compared to savevisit logically
 					// TODO: where to save visit, and where/when to get alternatives, for good flow
+					// get next alternative and attempt request again
 					if(this.isVisited(row)) {
 
 					}
@@ -129,7 +213,7 @@ class Request {
 					//console.log('SITE PAGES object', sitePages);
 				}
 			});
-		}
+		}*/
 	}
 
 	requestPageBody(baseUrl, cb) {
@@ -163,9 +247,9 @@ class Request {
 	    	var hrefWithoutSlash = relativeLinks[l].attribs.href.replace('/', '')
 	   		rLinks.push(hrefWithoutSlash.toLowerCase());
 	    	//rLinks.push($(this).attr('href'));
+	    //console.log('rLinks')
 	    	
 	    });
-	    //console.log('rLinks')
 	    //console.log(rLinks);
 	    this.sitePages[baseUrl] = { pages: rLinks, confidence: this.calculateConfidenceLevel(rLinks)}
 	    return rLinks;
