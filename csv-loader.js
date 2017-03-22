@@ -2,7 +2,14 @@
 
 var fs = require('fs');
 var csv = require('csv-parser');
-const CSV_FILE_LOCATION = './clubs-list/clublist.csv'
+var node_xj = require("xls-to-json");
+const CSV_FILE_LOCATION = './clubs-list/clublist.csv';
+const low = require('lowdb')
+const db = low('db.json');
+var unconfirmedSize = 0;
+var confirmedSize = 0;
+var failedSize = 0;
+db.defaults({ confirmed: [], unconfirmed: [], failed: [], unconfirmedSize: {}, failedSize: {}, confirmedSize: {} }).write();
 
 var stream = csv({
 	raw: false,     // do not decode to utf-8 strings 
@@ -23,15 +30,19 @@ class CsvLoader {
 		var R = new Request();
 		fs.createReadStream(CSV_FILE_LOCATION)
 			.pipe(stream)
-			.on('data', function(row){
+			.on('data', function (row) {
 				// fields: name, webpage, _id, webpage_conf, webpage, vorstand, kategorie, strasse, plz
 				// hausenr, bemerkugen, alternates[0-3], __V, sitz
 				//console.log('arrived \n', data);
 				// get website and request and check for relative links and calculate confidence level
-				R.handleRow(row);
-				self.data.push(row);
+				//if (parseInt(row.webpage_conf) < 0.8) {
+					R.handleRow(row);
+					self.data.push(row);
+				//} else {
+					//Manually done 
+				//}
 			})
-			.on('end', function(){
+			.on('end', function () {
 				console.log('DONE LOADING CSV DATA');
 				// call R function from here
 				self.loadDone = true;
@@ -41,9 +52,9 @@ class CsvLoader {
 
 	getData() {
 		//while(this.loadDone == false) {
-			// block until loaded
-			//console.log('inside of while loop now')
-			//setTimeout(function(){}, 1000);
+		// block until loaded
+		//console.log('inside of while loop now')
+		//setTimeout(function(){}, 1000);
 		//}
 		//console.log('out of while loop now');
 		return this.data;
@@ -85,10 +96,10 @@ class Request {
 	// check if page visited/ tried by id
 	isVisited(row) {
 		var visited = false;
-		Object.keys(this.visited).forEach(function(id, index) {
-			if(id == row._id) {
+		Object.keys(this.visited).forEach(function (id, index) {
+			if (id == row._id) {
 				//visited = true;
-				if(this.visited[id].visited.indexOf(webpage) != -1) {
+				if (this.visited[id].visited.indexOf(webpage) != -1) {
 					visited = true;
 				}
 			}
@@ -102,7 +113,7 @@ class Request {
 	}
 
 	saveVisit(row, webpage) {
-		if(this.idExistsInVisited(row._id)) {
+		if (this.idExistsInVisited(row._id)) {
 			var temp = this.visited[row._id];
 			temp.visited.push(webpage);
 			this.visited[row._id] = temp;
@@ -120,14 +131,14 @@ class Request {
 		var id = row._id;
 		var dataWithRowAndVisits = this.getRowData(id);
 		// TODO: handle well
-		if(!dataWithRowAndVisits) {
+		if (!dataWithRowAndVisits) {
 			//console.error('NO ALTERNaTIve');
 			return row.webpage;
 			//return null;
 		} else {
 			var visits = dataWithRowAndVisits.visited;
 			// nothing visited so send first webpage
-			if(!visits) {
+			if (!visits) {
 				return dataWithRowAndVisits.row.webpage;
 			}
 			// get next alternative
@@ -139,70 +150,61 @@ class Request {
 			alternatives.push(dataWithRowAndVisits.row['alternates[2]']);
 			alternatives.push(dataWithRowAndVisits.row['alternates[3]']);
 			// with the assumption of order and that requests and attempted in order
-			alternatives.forEach(function(alt, ind) {
+			alternatives.forEach(function (alt, ind) {
 				// make sure next alternative is only set if not previously set
 				// to avoid value override
-				if(visits.indexOf(alt) == -1) {
-					if(next == undefined) {
+				if (visits.indexOf(alt) == -1) {
+					if (next == undefined) {
 						next = alt;
 					}
 				}
 			});
 			// if undefined next alternative is first alternative
-			/*if(next == undefined) {
-				next = dataWithRowAndVisits.row['alternative[0]'];
-			}*/
 
 			return next;
 		}
 	}
 
-	getImpressumLink(links) {
-		var impressumLink = undefined;
-		links.forEach(function(link, index){
-			if(/impressum/i.test(link)) {
-			//if(link.toLowerCase().indexOf('impressum') != -1) {
-				impressumLink = link;
-			}
-		});
-		return impressumLink;
-	}
-
 	saveConfidenceLevel(id, level) {
-		if(this.idExistsInVisited(id)) {
+		if (this.idExistsInVisited(id)) {
 			var temp = this.visited[id];
 			temp.confidenceLevels.push(level);
 			this.visited[id] = temp;
 		}
 	}
 
-	pageConfidence(body, name, cb) {
-			var extraction_result = keyword_extractor.extract(name,{
-                language:"german",
-                return_changed_case:false,
-                remove_duplicates: true
+	pageConfidence(body, name, city, cb) {
+		var extraction_result = keyword_extractor.extract(name, {
+			language: "german",
+			return_changed_case: false,
+			remove_duplicates: true
 
-           });
-			var resultLength = extraction_result.length;
-			var encountered = 0;
-			extraction_result.forEach(function (keyword) {
-				var matcher = new RegExp(keyword, 'i');
-				if(matcher.test(body)) {
-					encountered += 1;
-				}
-			});
-			// check encountered and confirm
-			// if size is 2, expect total words occurence
-			var ratio = encountered/resultLength;
-			if(resultLength <= 2) {
-				if(ratio == 1) {
-					return cb(1);
-				} else {
-					return cb(0);
-				}
-			} else {
-				return cb(ratio);
+		});
+		var resultLength = extraction_result.length;
+		var encountered = 0;
+		extraction_result.forEach(function (keyword) {
+			var matcher = new RegExp(keyword, 'i');
+			if (matcher.test(body)) {
+				encountered += 1;
 			}
+		});
+
+		var cityMatcher = new RegExp(city, 'i');
+		if(!cityMatcher.test(body) && encountered > 0) {//If city is different, then most likely different club. Ignore.
+			encountered = 0;
+		}
+		// check encountered and confirm
+		// if size is 2, expect total words occurence
+		var ratio = encountered / resultLength;
+		if (resultLength <= 2) {
+			if (ratio == 1) {
+				return cb(1);
+			} else {
+				return cb(0);
+			}
+		} else {
+			return cb(ratio);
+		}
 	}
 
 	// function called with row
@@ -219,7 +221,7 @@ class Request {
 		var nextPagetoAttempt = this.getNextAlternativeWebsite(row);
 		//console.log('next page attempt ', nextPagetoAttempt, row);
 		// only try if there's a page to attempt
-		if(nextPagetoAttempt) {
+		if (nextPagetoAttempt) {
 			// save attempt
 			this.saveVisit(row, nextPagetoAttempt);
 			// compute base url
@@ -227,53 +229,62 @@ class Request {
 
 			//console.log(url);
 			// handling possible invlid URI error due to lack of protocol information
-			if(!url.protocol){
+			if (!url.protocol) {
 				url.protocol = 'http:';
 				url.hostname = 'www.' + url.href;
-			} 
+			}
 			var baseUrl = url.protocol + "//" + url.hostname;
 			//console.log('BASE URL; ', baseUrl);
 			// request for page body with url
 			this.requestPageBody(baseUrl, (err, $) => {
 				//this.saveVisit(row, row.webpage);
 				// do this when no impressum
-				if(err){
+				if (err) {
 					// Error requesting page, try alternatives
 					// call function again to attempt next alternative
 					//console.log("ERROR requesting page ", baseUrl);
 					this.handleRow(row);
 				} else {
-					//console.log("CHeerio: ", $)
-					var relativeLinks = this.collectRelativeLinks($, baseUrl);
-					// if impressum exists, then query impressum page
-					var impressumLink = this.getImpressumLink(relativeLinks);
-					if(impressumLink != undefined) {
-						var impressumUrl = url.protocol + "//" + url.hostname + "/" + impressumLink; 
+					//Get impressum link
+					var impressumLink = this.getImpressumLink($, baseUrl);
+					if (impressumLink.length > 1) {
+						// if impressum exists, then query impressum page
+						//console.log('attempting impressum url: ' + impressumLink);
+						//var impressumUrl = url.protocol + "//" + url.hostname + "/" + impressumLink;
 						//if(impressumUrl.indexOf('TopNav') != -1) {
-							console.log('impressum URL: ', impressumUrl);
+						//console.log('impressum URL: ', impressumUrl);
 						//}
-						
-						this.requestPageBody(impressumUrl, function(err, $) {
-							if(err) {
+
+						this.requestPageBody(impressumLink, function (err, $) {
+							if (err) {
 								//console.log('ErRROR REQUESTING IMPRESSUM LINK', err);
 								return;
 							}
 							//console.log('IMPRESSUM BODY: ', $);
 							//console.log($.html());
-							self.pageConfidence($.html(), row.name, function(confidenceLevel) {
-								console.log(confidenceLevel);
+							self.pageConfidence($.html(), row.name, row.sitz, function (confidenceLevel) {
 								// check next alternative if lower than threshold
 								var threshold = 0.6;
 								// same confidence level before checking next alternative
-								this.saveConfidenceLevel(row._id, cl);
-								if(threshold <= confidenceLevel) {
+								self.saveConfidenceLevel(row._id, confidenceLevel);
+								if (threshold <= confidenceLevel) {
+									//If higher than threshold save to confirmed array
+									var confirmedClub = { name: row.name, url: baseUrl, confidenceLevel: confidenceLevel };
+									console.log(confirmedClub);
+									db.get('confirmed')
+										.push({ name: row.name, url: baseUrl, confidenceLevel: confidenceLevel })
+										.write();
+									confirmedSize += 1;
+									db.set('confirmedSize.size', confirmedSize)
+										.write();
 
 								} else {
-									this.handleRow(row);
+									self.handleRow(row);
 								}
 							});
 						});
 					} else {
+						//console.log(relativeLinks);
 						// query next alternative
 						this.handleRow(row);
 					}
@@ -282,91 +293,88 @@ class Request {
 				}
 			});
 		} else {
+			if (this.idExistsInVisited(row._id)) {
+				var visitedRow = this.getRowData(row._id);
+				console.log('Unconfirmed!');
+				console.log(visitedRow);
+				// Add to local database
+				if (visitedRow.confidenceLevels.length > 0) {//Impressum was found, but is unlikely to be correct one
+					db.get('unconfirmed')
+						.push({ name: visitedRow.row.name, urls: visitedRow.visited, confidenceLevels: visitedRow.confidenceLevels })
+						.write();
+					unconfirmedSize += 1;
+					db.set('unconfirmedSize.size', unconfirmedSize)
+						.write();
+				} else { //No impressum found
+					db.get('failed')
+						.push({ name: visitedRow.row.name, urls: visitedRow.visited, confidenceLevels: visitedRow.confidenceLevels })
+						.write();
+					failedSize += 1;
+					db.set('failedSize.size', failedSize)
+						.write();
+				}
+
+			}
 			// TODO: if no next alternative
 		}
 
-		/*if(row.webpage) {
-			var url = new URL(row.webpage);
-			console.log(url);
-			//var baseUrl = url.protocol + "//" + url.hostname;
-			// handling possible invlid URI error due to lack of protocol information
-			if(!url.protocol){
-				url.protocol = 'http:';
-				url.hostname = 'www.' + url.href;
-			} 
-			var baseUrl = url.protocol + "//" + url.hostname;
-			console.log('BASE URL; ', baseUrl)
-			this.requestPageBody(baseUrl, (err, $) => {
-				this.saveVisit(row, row.webpage);
-				if(err){
-					// Error requesting page, try alternatives
-					// TODO: check again definition of isVisited compared to savevisit logically
-					// TODO: where to save visit, and where/when to get alternatives, for good flow
-					// get next alternative and attempt request again
-					if(this.isVisited(row)) {
-
-					}
-					this.visited.push({ _id: row._id, tried: []  })
-					console.log("ERROR requesting page")
-				} else {
-					console.log("CHeerio: ", $)
-					var relativeLinks = this.collectRelativeLinks($, baseUrl);
-					//console.log(relativeLinks);
-					//console.log('SITE PAGES object', sitePages);
-				}
-			});
-		}*/
 	}
 
 	requestPageBody(baseUrl, cb) {
 		//console.log('Visiting Page: ', baseUrl);
 		request(baseUrl, (error, response, body) => {
-			if(error) {
+			if (error) {
 				this.unresolvedSites.push({ baseUrl: baseUrl, error: error })
 				return cb(error);
 			}
 			// Check status code (200 is HTTP OK)
-			//console.log("Error request page: ",  error);
-			//console.log("Status code: " + response.statusCode);
-			if(response.statusCode !== 200) {
+			if (response.statusCode !== 200) {
 				return cb({ msg: "Status code NOT 200" }, null);
 			}
 			// Parse the document body
-	     	var $ = cheerio.load(body);
+			var $ = cheerio.load(body);
 
-	     	return cb(null, $);
+			return cb(null, $);
 		});
 	}
 
-	collectRelativeLinks($, baseUrl) {
+	getImpressumLink($, baseUrl) {
 		var relativeLinks = $("a[href^='/']");
-	    //console.log("Found " + relativeLinks.length + " relative links on website " + baseUrl);
-	    //console.log(relativeLinks);
-	    // obtain only relative links from structure
-	    var rLinks = [];
-	    var count = 1;
-	    relativeLinks.each( (l, i) => {
-	    	var hrefWithoutSlash = relativeLinks[l].attribs.href.replace('/', '');
-	   		rLinks.push(hrefWithoutSlash);
-	    	//rLinks.push($(this).attr('href'));
-	    //console.log('rLinks')
-	    	
-	    });
-	    //console.log(rLinks);
-	    this.sitePages[baseUrl] = { pages: rLinks, confidence: this.calculateConfidenceLevel(rLinks)}
-	    return rLinks;
-	}
+		var impressumLink = '';
+		try {
+			var links = $($.html()).find('a');
+			links.each((i, link) => {
+				var tagText = '';
+				if (link.type == 'tag' && link.name == 'a') {// Is an anchor
+					if (link.children[0] && link.children[0].type == 'text') {// if tag has text
+						tagText = link.children[0].data;
+					}
+					if (/impressum/i.test(link.attribs.href) || /impressum/i.test(link.attribs.title) || /impressum/i.test(tagText)) { //If the link href or title contains impressum string
+						impressumLink = link.attribs.href;
+					}
 
-	calculateConfidenceLevel(relativeLinks) {
-		var level = 0;
-		this.confidenceLinks.forEach( (cl, index) => {
-			if(relativeLinks.indexOf(cl) >= 0) {
-				level = level + 0.5
+				}
+
+			});
+
+			if (impressumLink.length > 1) {//If impressum link found, check if correct url form, if not correct it
+				if (impressumLink.indexOf('http') == -1 && impressumLink.indexOf('https') == -1) { //Is not fully formated, modify
+					if (impressumLink.charAt(0) != '/' && baseUrl.charAt(baseUrl.length - 1) != '/') {//If slash deoe not exist add
+						baseUrl = baseUrl + '/'
+					}
+					impressumLink = baseUrl + impressumLink;
+				}
+
 			}
-		});
+			return impressumLink;
+		} catch (err) {
+			console.log('Could not be parsed!');
+			//console.log(err);
+			return '';
+		}
 
-		return level;
 	}
+
 }
 
 module.exports = CsvLoader

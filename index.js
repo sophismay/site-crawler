@@ -80,7 +80,7 @@ function collectRelativeLinks($, baseUrl) {
     return rLinks;
 }
 
-function calculateConfidenceLevel(relativeLinks) {
+/*function calculateConfidenceLevel(relativeLinks) {
 	var level = 0;
 	confidenceLinks.forEach( (cl, index) => {
 		if(relativeLinks.indexOf(cl) >= 0) {
@@ -89,7 +89,7 @@ function calculateConfidenceLevel(relativeLinks) {
 	});
 
 	return level;
-}
+}*/
 
 function requestPageBody(baseUrl, cb) {
 	console.log('Visiting Page: ', baseUrl);
