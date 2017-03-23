@@ -35,12 +35,12 @@ class CsvLoader {
 				// hausenr, bemerkugen, alternates[0-3], __V, sitz
 				//console.log('arrived \n', data);
 				// get website and request and check for relative links and calculate confidence level
-				//if (parseInt(row.webpage_conf) < 0.8) {
+				if (parseInt(row.webpage_conf) < 0.8) {
 					R.handleRow(row);
 					self.data.push(row);
-				//} else {
+				} else {
 					//Manually done 
-				//}
+				}
 			})
 			.on('end', function () {
 				console.log('DONE LOADING CSV DATA');
@@ -182,6 +182,7 @@ class Request {
 		});
 		var resultLength = extraction_result.length;
 		var encountered = 0;
+		var sameCity = false;
 		extraction_result.forEach(function (keyword) {
 			var matcher = new RegExp(keyword, 'i');
 			if (matcher.test(body)) {
@@ -189,21 +190,28 @@ class Request {
 			}
 		});
 
-		var cityMatcher = new RegExp(city, 'i');
-		if(!cityMatcher.test(body) && encountered > 0) {//If city is different, then most likely different club. Ignore.
-			encountered = 0;
+		//Remove darmstadt from the string
+		extraction_result.forEach(function (keyword, i) {
+			if (/darmstadt/i.test(keyword)) {
+				extraction_result.splice(i, 1);
+			}
+		});
+
+		var cityMatcher = new RegExp(city.toLowerCase(), 'i');
+		if (cityMatcher.test(body) && encountered > 0 || /darmstadt/i.test(body)) {//If city is true
+			sameCity = true;
 		}
 		// check encountered and confirm
 		// if size is 2, expect total words occurence
 		var ratio = encountered / resultLength;
 		if (resultLength <= 2) {
 			if (ratio == 1) {
-				return cb(1);
+				return cb(1, sameCity);
 			} else {
 				return cb(0);
 			}
 		} else {
-			return cb(ratio);
+			return cb(ratio, sameCity);
 		}
 	}
 
@@ -262,17 +270,15 @@ class Request {
 							}
 							//console.log('IMPRESSUM BODY: ', $);
 							//console.log($.html());
-							self.pageConfidence($.html(), row.name, row.sitz, function (confidenceLevel) {
+							self.pageConfidence($.html(), row.name, row.sitz, function (confidenceLevel, sameCity) {
 								// check next alternative if lower than threshold
-								var threshold = 0.6;
+								var threshold = 0.51;
 								// same confidence level before checking next alternative
 								self.saveConfidenceLevel(row._id, confidenceLevel);
 								if (threshold <= confidenceLevel) {
 									//If higher than threshold save to confirmed array
-									var confirmedClub = { name: row.name, url: baseUrl, confidenceLevel: confidenceLevel };
-									console.log(confirmedClub);
 									db.get('confirmed')
-										.push({ name: row.name, url: baseUrl, confidenceLevel: confidenceLevel })
+										.push({ name: row.name, url: baseUrl, confidenceLevel: confidenceLevel, sameCity: sameCity })
 										.write();
 									confirmedSize += 1;
 									db.set('confirmedSize.size', confirmedSize)
