@@ -4,7 +4,8 @@ var fs = require('fs');
 var csv = require('csv-parser');
 var node_xj = require("xls-to-json");
 const CSV_FILE_LOCATION = './clubs-list/clublist.csv';
-const low = require('lowdb')
+var Writer = require('./csv-writer');
+const low = require('lowdb');
 const db = low('db.json');
 var unconfirmedSize = 0;
 var confirmedSize = 0;
@@ -27,6 +28,7 @@ class CsvLoader {
 		var self = this;
 		this.data = [];
 		this.loadDone = false;
+		var rowsCount = 0;
 		var R = new Request();
 		fs.createReadStream(CSV_FILE_LOCATION)
 			.pipe(stream)
@@ -36,6 +38,7 @@ class CsvLoader {
 				//console.log('arrived \n', data);
 				// get website and request and check for relative links and calculate confidence level
 				//if (parseInt(row.webpage_conf) < 0.8) {
+					rowsCount += 1;
 					R.handleRow(row);
 					self.data.push(row);
 				//} else {
@@ -44,6 +47,8 @@ class CsvLoader {
 			})
 			.on('end', function () {
 				console.log('DONE LOADING CSV DATA');
+				console.log('ROws: ', rowsCount);
+				R.setRowsCount(rowsCount);
 				// call R function from here
 				self.loadDone = true;
 				//console.log(self);
@@ -71,6 +76,7 @@ var URL = require('url-parse');
 
 class Request {
 	constructor() {
+		this.rowsCount = undefined;
 		this.sitePages = {};
 		this.confidenceLinks = ['impressum', 'kontakt'];
 		// keep track of unresolved sites which couldn't be parsed due to errors
@@ -228,7 +234,7 @@ class Request {
 			var url = new URL(nextPagetoAttempt);
 
 			//console.log(url);
-			// handling possible invlid URI error due to lack of protocol information
+			// handling possible invalid URI error due to lack of protocol information
 			if (!url.protocol) {
 				url.protocol = 'http:';
 				url.hostname = 'www.' + url.href;
@@ -270,13 +276,15 @@ class Request {
 								if (threshold <= confidenceLevel) {
 									//If higher than threshold save to confirmed array
 									var confirmedClub = { name: row.name, url: baseUrl, confidenceLevel: confidenceLevel };
-									console.log(confirmedClub);
+									//console.log(confirmedClub);
 									db.get('confirmed')
 										.push({ name: row.name, url: baseUrl, confidenceLevel: confidenceLevel })
 										.write();
 									confirmedSize += 1;
 									db.set('confirmedSize.size', confirmedSize)
 										.write();
+									// check if rows done
+									self.checkIfRowsDone();
 
 								} else {
 									self.handleRow(row);
@@ -295,8 +303,8 @@ class Request {
 		} else {
 			if (this.idExistsInVisited(row._id)) {
 				var visitedRow = this.getRowData(row._id);
-				console.log('Unconfirmed!');
-				console.log(visitedRow);
+				//console.log('Unconfirmed!');
+				//console.log(visitedRow);
 				// Add to local database
 				if (visitedRow.confidenceLevels.length > 0) {//Impressum was found, but is unlikely to be correct one
 					db.get('unconfirmed')
@@ -305,6 +313,7 @@ class Request {
 					unconfirmedSize += 1;
 					db.set('unconfirmedSize.size', unconfirmedSize)
 						.write();
+					self.checkIfRowsDone();
 				} else { //No impressum found
 					db.get('failed')
 						.push({ name: visitedRow.row.name, urls: visitedRow.visited, confidenceLevels: visitedRow.confidenceLevels })
@@ -312,6 +321,7 @@ class Request {
 					failedSize += 1;
 					db.set('failedSize.size', failedSize)
 						.write();
+					self.checkIfRowsDone();
 				}
 
 			}
@@ -368,11 +378,22 @@ class Request {
 			}
 			return impressumLink;
 		} catch (err) {
-			console.log('Could not be parsed!');
+			//console.log('Could not be parsed!');
 			//console.log(err);
 			return '';
 		}
 
+	}
+
+	setRowsCount(count) {
+		console.log('Setting ROws Count, called from Loader: ', count);
+		this.rowsCount = count;
+	}
+
+	checkIfRowsDone() {
+		if(this.rowsCount != undefined) {
+			console.log('Rows Count Set in R: ', this.rowsCount);
+		}
 	}
 
 }
