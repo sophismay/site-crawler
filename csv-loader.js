@@ -35,7 +35,7 @@ class CsvLoader {
 				// hausenr, bemerkugen, alternates[0-3], __V, sitz
 				//console.log('arrived \n', data);
 				// get website and request and check for relative links and calculate confidence level
-				if (parseInt(row.webpage_conf) < 0.8) {
+				if (parseInt(row.webpage_conf) < 0.8 ||row.plz.length < 1 ) {
 					R.handleRow(row);
 					self.data.push(row);
 				} else {
@@ -76,7 +76,7 @@ class Request {
 		// keep track of unresolved sites which couldn't be parsed due to errors
 		this.unresolvedSites = []
 		// visited websites, so the next alternative can be inferred
-		// { id: { row: row-data, visited: [visited_sites], confidenceLevels: [Number] } }
+		// { id: { row: row-data, visited: [visited_sites], confidenceLevels: [Number], sameCity: [] } }
 		// array of confidence levels must be same order as visited sites
 		this.visited = {};
 
@@ -118,7 +118,7 @@ class Request {
 			temp.visited.push(webpage);
 			this.visited[row._id] = temp;
 		} else {
-			this.visited[row._id] = { row: row, visited: [webpage], confidenceLevels: [] };
+			this.visited[row._id] = { row: row, visited: [webpage], confidenceLevels: [], sameCity: [] };
 		}
 	}
 
@@ -165,10 +165,11 @@ class Request {
 		}
 	}
 
-	saveConfidenceLevel(id, level) {
+	saveConfidenceLevel(id, level, sameCity) {
 		if (this.idExistsInVisited(id)) {
 			var temp = this.visited[id];
 			temp.confidenceLevels.push(level);
+			temp.sameCity.push(sameCity);
 			this.visited[id] = temp;
 		}
 	}
@@ -180,9 +181,18 @@ class Request {
 			remove_duplicates: true
 
 		});
-		var resultLength = extraction_result.length;
 		var encountered = 0;
 		var sameCity = false;
+
+		//Remove darmstadt from the string
+		extraction_result.forEach(function (keyword, i, arr) {
+			if (/darmstadt/i.test(keyword)) {
+				arr.splice(i, 1);
+			}
+		});
+
+		var resultLength = extraction_result.length;
+
 		extraction_result.forEach(function (keyword) {
 			var matcher = new RegExp(keyword, 'i');
 			if (matcher.test(body)) {
@@ -190,15 +200,9 @@ class Request {
 			}
 		});
 
-		//Remove darmstadt from the string
-		extraction_result.forEach(function (keyword, i) {
-			if (/darmstadt/i.test(keyword)) {
-				extraction_result.splice(i, 1);
-			}
-		});
 
 		var cityMatcher = new RegExp(city.toLowerCase(), 'i');
-		if (cityMatcher.test(body) && encountered > 0 || /darmstadt/i.test(body)) {//If city is true
+		if (cityMatcher.test(body) && (encountered / resultLength) > 0.5 || /darmstadt/i.test(body)) {//If city is true
 			sameCity = true;
 		}
 		// check encountered and confirm
@@ -208,7 +212,7 @@ class Request {
 			if (ratio == 1) {
 				return cb(1, sameCity);
 			} else {
-				return cb(0);
+				return cb(0, sameCity);
 			}
 		} else {
 			return cb(ratio, sameCity);
@@ -274,11 +278,11 @@ class Request {
 								// check next alternative if lower than threshold
 								var threshold = 0.51;
 								// same confidence level before checking next alternative
-								self.saveConfidenceLevel(row._id, confidenceLevel);
-								if (threshold <= confidenceLevel) {
+								self.saveConfidenceLevel(row._id, confidenceLevel, sameCity);
+								if (threshold <= confidenceLevel || 0.5 == confidenceLevel && sameCity) {
 									//If higher than threshold save to confirmed array
 									db.get('confirmed')
-										.push({ name: row.name, url: baseUrl, confidenceLevel: confidenceLevel, sameCity: sameCity })
+										.push({ name: row.name, url: baseUrl, confidenceLevel: confidenceLevel, sameCity: sameCity, city: row.sitz })
 										.write();
 									confirmedSize += 1;
 									db.set('confirmedSize.size', confirmedSize)
@@ -306,14 +310,14 @@ class Request {
 				// Add to local database
 				if (visitedRow.confidenceLevels.length > 0) {//Impressum was found, but is unlikely to be correct one
 					db.get('unconfirmed')
-						.push({ name: visitedRow.row.name, urls: visitedRow.visited, confidenceLevels: visitedRow.confidenceLevels })
+						.push({ name: visitedRow.row.name, urls: visitedRow.visited, confidenceLevels: visitedRow.confidenceLevels, sameCity: visitedRow.sameCity, city: visitedRow.row.sitz })
 						.write();
 					unconfirmedSize += 1;
 					db.set('unconfirmedSize.size', unconfirmedSize)
 						.write();
 				} else { //No impressum found
 					db.get('failed')
-						.push({ name: visitedRow.row.name, urls: visitedRow.visited, confidenceLevels: visitedRow.confidenceLevels })
+						.push({ name: visitedRow.row.name, urls: visitedRow.visited, confidenceLevels: visitedRow.confidenceLevels, city: visitedRow.row.sitz })
 						.write();
 					failedSize += 1;
 					db.set('failedSize.size', failedSize)
