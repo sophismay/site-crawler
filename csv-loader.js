@@ -4,11 +4,21 @@ var fs = require('fs');
 var csv = require('csv-parser');
 var node_xj = require("xls-to-json");
 const CSV_FILE_LOCATION = './clubs-list/clublist.csv';
-const low = require('lowdb')
+const low = require('lowdb');
+const checkDb = low('checkedb.json');
 const db = low('db.json');
 var unconfirmedSize = 0;
 var confirmedSize = 0;
 var failedSize = 0;
+var confirmedNames = checkDb.get('confirmed').map('name').value();
+var unconfirmedNames = checkDb.get('unconfirmed').map('name').value();
+var faileddNames = checkDb.get('failed').map('name').value();
+var processedNames = confirmedNames.concat(unconfirmedNames);
+processedNames = processedNames.concat(faileddNames);
+processedNames.forEach(function (val) {
+	val = val.replace(/\\/g, '');
+	//console.log(val);
+})
 db.defaults({ confirmed: [], unconfirmed: [], failed: [], unconfirmedSize: {}, failedSize: {}, confirmedSize: {} }).write();
 
 var stream = csv({
@@ -28,6 +38,7 @@ class CsvLoader {
 		this.data = [];
 		this.loadDone = false;
 		var R = new Request();
+		var count = 0;
 		fs.createReadStream(CSV_FILE_LOCATION)
 			.pipe(stream)
 			.on('data', function (row) {
@@ -35,15 +46,23 @@ class CsvLoader {
 				// hausenr, bemerkugen, alternates[0-3], __V, sitz
 				//console.log('arrived \n', data);
 				// get website and request and check for relative links and calculate confidence level
-				if (parseInt(row.webpage_conf) < 0.8 ||row.plz.length < 1 ) {
-					R.handleRow(row);
-					self.data.push(row);
+				if (parseInt(row.webpage_conf) < 0.8 || row.plz.length < 1) {
+					var name = row.name.replace(/'/g, "");
+					if (processedNames.indexOf(name) == -1) {
+						R.handleRow(row);
+						self.data.push(row);
+						//console.log(name);
+						//count +=1;
+					}
+					//R.handleRow(row);
+					//self.data.push(row);
 				} else {
 					//Manually done 
 				}
 			})
 			.on('end', function () {
 				console.log('DONE LOADING CSV DATA');
+				console.log(count);
 				// call R function from here
 				self.loadDone = true;
 				//console.log(self);

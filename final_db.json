@@ -4595,7 +4595,7 @@
         {
             "name": "Förderverein KiTa Selma-Lagerlöf-Haus e.V.",
             "url": "http://www.selma-lagerloef-haus.org",
-            "confidenceLevel": 0.5,
+            "confidenceLevel": 1,
             "sameCity": true,
             "city": "Darmstadt"
         },
