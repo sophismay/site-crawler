@@ -1,6 +1,2176 @@
 {
     "confirmed": [
         {
+            "name": "\"Akademische Fliegergruppe Darmstadt\", technisch-wissenschaftliche Vereinigung an der Technischen Universität Darmstadt zur Förderung u. Pflege d. Flugwesens, abgekürzt \"Akaflieg Darmstadt\"",
+            "url": "https://www.akaflieg.tu-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Leif Thorhauer",
+            "strasse": "Karolinenplatz",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Dialog\" Bildungs-, Kultur- und Integrationsverein der Deutschen aus Russland",
+            "url": "http://www.kidsundfamilie.cabanova.de",
+            "confidenceLevel": "1",
+            "vorstand": "Olga Karsten",
+            "strasse": "Adelungstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "\"MATHILDE - Frauenzeitung für Darmstadt und Region e.V.\" (MFD e.V.)",
+            "url": "http://www.mathilde-frauenzeitung.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Emilstraße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "\"VIBIS\", Verein für islamische Bildung, Integration und Seelsorge e.V.",
+            "url": "http://vibis.org",
+            "confidenceLevel": "1",
+            "vorstand": "Omar Askari",
+            "strasse": "Bunsenstraße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "1. Karneval-Club Arheilgen e.V.",
+            "url": "https://www.k-c-arheilgen.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ralf Kuhn",
+            "strasse": "Untere-Mühlstraße",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "\"Gleich x Anders (GxA)\" - Verein zur Förderung der Integration von geistig und körperlich beeinträchtigten Menschen am gesellschaftlichen Leben e.V.",
+            "url": "http://www.gleichxanders.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ulrike Hestermann",
+            "strasse": "Elisabeth-Kern-Straße",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "\"SALONik\" Deutsch-Polnischer Kulturverein e.V.",
+            "url": "https://salonik.de",
+            "confidenceLevel": "1",
+            "vorstand": "Elżbieta Heller",
+            "strasse": "Otto-Hesse-Straße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "ADRA Deutschland e.V.",
+            "url": "http://www.adra.de",
+            "confidenceLevel": "1",
+            "vorstand": "Werner Dullinger",
+            "strasse": "Robert-Bosch-Straße",
+            "plz": "64331",
+            "bemerkungen": "",
+            "city": "Weiterstadt"
+        },
+        {
+            "name": "1. Darmstädter Squash Club 1979 e.V.",
+            "url": "http://www.darmstadt-79.de",
+            "confidenceLevel": "1",
+            "vorstand": "Markus Cetti",
+            "strasse": "Friedrichstr.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Aikikai Darmstadt e. V.",
+            "url": "http://www.aikikai-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Matthias Zöller",
+            "strasse": "Elisabeth-Selbert-Straße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akademische Kraftfahrgruppe Darmstadt e.V.",
+            "url": "https://www.akakraft-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Christian Warcop",
+            "strasse": "Karolinenplatz",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "A5 Surf Locals e. V.",
+            "url": "http://a5surflocals.de",
+            "confidenceLevel": "1",
+            "vorstand": "Tarek Aichah",
+            "strasse": "Ginsterweg",
+            "plz": "64331",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akademischer Papieringenieur-Verein an der Technischen Universität Darmstadt (A.P.V.)",
+            "url": "http://apv-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dipl.-Ing. Thomas Villforth",
+            "strasse": "Alexanderstr.",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Abrahamisches Forum in Deutschland e.V.",
+            "url": "http://www.interkultureller-rat.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Jürgen Micksch",
+            "strasse": "Goebelstraße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akkordeon-Konzertverein 1936 Darmstadt e.V.",
+            "url": "http://www.akd1936.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ursula Thumann",
+            "strasse": "Göthsbachstraße",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Wixhausen"
+        },
+        {
+            "name": "Alevitische Gemeinde Darmstadt und Umgebung",
+            "url": "http://www.almanya-bilgi.de",
+            "confidenceLevel": "1",
+            "vorstand": "Hüdaverdi Kaya",
+            "strasse": "Im Niederfeld",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Allgemeiner Deutscher Fahrrad-Club, Darmstadt",
+            "url": "https://www.adfc-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Thomas Grän",
+            "strasse": "Am Fürstenbahnhof",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Altherren-Bund des Vereins Deutscher Studenten Darmstadt-Köthen",
+            "url": "http://www.vdst-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Beckstraße",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Altherrenverband der Sängerschaft Erato-Darmstadt e.V.",
+            "url": "http://korp.erato.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Hanns Bössler",
+            "strasse": "Wolfskehlstr.",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akademischer Verein Darmstadt e.V.",
+            "url": "http://www.akademischerverein.info",
+            "confidenceLevel": "1",
+            "vorstand": "Erik Ehrhardt",
+            "strasse": "Merckstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Altherrenvereinigung der Landsmannschaft im CC Cheruskia-Darmstadt (Landsmannschaft im CC Cheruskia Darmstadt)",
+            "url": "https://www.cheruskia.de",
+            "confidenceLevel": "1",
+            "vorstand": "Thomas Bedarff",
+            "strasse": "Moserstraße",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Amazaourou e.V.",
+            "url": "http://www.amazaourou.de/",
+            "confidenceLevel": "1",
+            "vorstand": "Tizi Mohamed",
+            "strasse": "Wedekindweg",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Ambulante Kranken- und Sozialpflege",
+            "url": "http://www.ambulante-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Reinhold Faldermann",
+            "strasse": "Prinz-Christians-Weg",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Alice-Schwesternschaft vom Roten Kreuz Darmstadt",
+            "url": "http://www.alice-schwesternschaft.de",
+            "confidenceLevel": "1",
+            "vorstand": "Barbara Schmidt",
+            "strasse": "Dieburger Str.",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Allgemeiner Postwertzeichen-Sammlerverein e.V. Darmstadt",
+            "url": "http://www.aps-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Jürgen Weiler",
+            "strasse": "Untergasse",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Animal Help Europe e.V.",
+            "url": "http://www.animalhelpeurope.de",
+            "confidenceLevel": "1",
+            "vorstand": "Judith Potdevin",
+            "strasse": "Corthausstr.",
+            "plz": "49084",
+            "bemerkungen": "",
+            "city": "Osnabrück"
+        },
+        {
+            "name": "Alter Herren Verband der Landsmannschaft \"Normannia\" Darmstadt e.V.",
+            "url": "http://www.normannia.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Prinz-Christians-Weg",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Altherrenverband der Akademischen Turnverbindung Darmstadt",
+            "url": "http://atv-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Philipp Trümper",
+            "strasse": "Nieder-Ramstädter Straße",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeiter Wohlfahrt, Kreisverband Darmstadt-Stadt e.V.",
+            "url": "http://www.awo-darmstadt.de/",
+            "confidenceLevel": "1",
+            "vorstand": "Barbara Lücke",
+            "strasse": "Frankfurter Straße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Altherrenverband des Darmstädter Wingolf",
+            "url": "http://www.darmstaedter-wingolf.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Alexandraweg",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeitsgemeinschaft Astronomie und Weltraumtechnik Darmstadt e.V.",
+            "url": "http://www.aaw-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Gunnar Glitscher",
+            "strasse": "Büschelstr.",
+            "plz": "64297",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Alumni der Kunststoff-Forschung Darmstadt e.V.",
+            "url": "http://alumni-kunststoffforschung-darmstadt.org",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Michael Klimes",
+            "strasse": "nicht angegeben",
+            "plz": "nicht angegeben",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeitsgemeinschaft Grafischer Handwerksbetriebe",
+            "url": "http://www.gvh-info.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dipl.-Ing. (FH) Torben Thorn",
+            "strasse": "Biebricher Allee",
+            "plz": "65187",
+            "bemerkungen": "",
+            "city": "Wiesbaden"
+        },
+        {
+            "name": "Arbeitsgemeinschaft Onlineforschung e.V.",
+            "url": "https://www.agof.de",
+            "confidenceLevel": "1",
+            "vorstand": "Björn Kaspring",
+            "strasse": "Europa-Allee",
+            "plz": "60327",
+            "bemerkungen": "",
+            "city": "Frankfurt am Main"
+        },
+        {
+            "name": "Arbeitskreis Musik in der Jugend AMJ-Landesverband Hessen e.V.",
+            "url": "http://www.amj-musik.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Karl Ermert",
+            "strasse": "Grüner Platz",
+            "plz": "38302",
+            "bemerkungen": "",
+            "city": "Wolfenbüttel"
+        },
+        {
+            "name": "Antipreneur - Kulturklub für kreative Konsumkritik",
+            "url": "http://www.antipreneur.de",
+            "confidenceLevel": "1",
+            "vorstand": "Jacob Chromy",
+            "strasse": "Pallaswiesenstraße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Athletik-Club-Siegfried-Darmstadt e.V.",
+            "url": "http://www.acsdarmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Hans Falch",
+            "strasse": "Paul-Gerhardt-Platz",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Automatisierungsregion Rhein Main Neckar e.V.",
+            "url": "https://www.automatisierungsregion.de",
+            "confidenceLevel": "1",
+            "vorstand": "Prof. Dr. Kristina Sinemus",
+            "strasse": "Rheinstraße",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeitsgemeinschaft für biologisch-dynamische Rebbaukultur in Mitteleuropa",
+            "url": "https://www.demeter.de",
+            "confidenceLevel": "1",
+            "vorstand": "Hartmut Heintz",
+            "strasse": "Schützenstr.",
+            "plz": "55450",
+            "bemerkungen": "",
+            "city": "Langenlonsheim"
+        },
+        {
+            "name": "AWA-Adventistischer Wissenschaftlicher Arbeitskreis e.V.",
+            "url": "http://www.awa-info.eu",
+            "confidenceLevel": "1",
+            "vorstand": "Walter Bromba",
+            "strasse": "Gräfstr.",
+            "plz": "60486",
+            "bemerkungen": "",
+            "city": "Frankfurt am Main"
+        },
+        {
+            "name": "Badminton Verein Darmstadt 1992 e.V.",
+            "url": "http://bvdarmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Sabine Fröhlich",
+            "strasse": "Wickopweg",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeitskreis Gemeindepädagogik e. V.",
+            "url": "http://www.ak-gemeindepaedagogik.de",
+            "confidenceLevel": "1",
+            "vorstand": "Frieder Aechtner",
+            "strasse": "Dornrain",
+            "plz": "99094",
+            "bemerkungen": "",
+            "city": "Erfurt"
+        },
+        {
+            "name": "Beirat des TU Darmstadt Energy Center e.V.",
+            "url": "http://www.energy.tu-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Prof. Dr.-Ing. Matthias Oechsner",
+            "strasse": "Jovanka-Bontschits-Straße",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arheilger Geschichtsverein",
+            "url": "http://www.arheilger-geschichtsverein.de",
+            "confidenceLevel": "1",
+            "vorstand": "Horst A. Härter",
+            "strasse": "Stadtweg",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bessunger KinderWerkStadt",
+            "url": "http://www.kinderwerkstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Christian Bogerts",
+            "strasse": "Ludwigshöhstr.",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Association of Cameroonian Students in Darmstadt",
+            "url": "http://www.camdar.net",
+            "confidenceLevel": "1",
+            "vorstand": "Mustang Tchouta",
+            "strasse": "Postfach 11 10 11",
+            "plz": "64225",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "AudioMax e.V.",
+            "url": "http://audiomax-campusradio.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ann-Kathrin Braun",
+            "strasse": "Karolinenplatz",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bezirksverband Waldkolonie",
+            "url": "http://www.bezirksverband.de",
+            "confidenceLevel": "1",
+            "vorstand": "Rainer Lach",
+            "strasse": "Moldenhauer Weg",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bilal",
+            "url": "http://bilalzentrum.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ahmed Miskine",
+            "strasse": "Postfach 11 01 49",
+            "plz": "64216",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Billardsportclub Darmstadt 2013 e.V.",
+            "url": "http://www.bsc-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Melanie Woller",
+            "strasse": "Heinheimer Str.",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "BUDO-DO-TAMESHI DARMSTADT e.V.",
+            "url": "http://www.budo-do-tameshi.de",
+            "confidenceLevel": "1",
+            "vorstand": "Jimmy Iwinski",
+            "strasse": "Kastanienallee",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bessunger Waldkindergarten",
+            "url": "http://www.bessunger-waldkindergarten.de",
+            "confidenceLevel": "1",
+            "vorstand": "Markus Kaiser",
+            "strasse": "Ludwigshöhstraße",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "bewusst e.V.",
+            "url": "http://www.bewusst-ev.de",
+            "confidenceLevel": "1",
+            "vorstand": "Sandy Simon",
+            "strasse": "Auf der Marienhöhe",
+            "plz": "64297",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Burschenschaft Berolina Mittweida zu Lübeck e.V.",
+            "url": "http://www.berolina-mittweida.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. med. Thomas Hoffmann",
+            "strasse": "Kronsforder Allee",
+            "plz": "23560",
+            "bemerkungen": "",
+            "city": "Lübeck"
+        },
+        {
+            "name": "Canne de Combat Darmstadt e.V.",
+            "url": "http://lacanne.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Traubenweg",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Börsen-Team, Studenten der TU Darmstadt e.V.",
+            "url": "http://www.boersen-team.tu-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Andreas Wieltsch",
+            "strasse": "Karolinenplatz",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Carrom - Club - Darmstadt",
+            "url": "http://www.carrom-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Gunter Seibert",
+            "strasse": "Hanauer Weg",
+            "plz": "63654",
+            "bemerkungen": "",
+            "city": "Büdingen"
+        },
+        {
+            "name": "BSV Saedinenie Darmstadt",
+            "url": "http://bsv-saedinenie.de/deutsch/",
+            "confidenceLevel": "1",
+            "vorstand": "Plamina Dimanova",
+            "strasse": "",
+            "plz": "Keine Angaben",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bund der Vertriebenen, Kreisverband Darmstadt-Stadt und Landkreis Darmstadt-Dieburg e.V.",
+            "url": "http://www.bdv-dadi.de",
+            "confidenceLevel": "1",
+            "vorstand": "Gisela Greiner",
+            "strasse": "Darmstädter Str.",
+            "plz": "64354",
+            "bemerkungen": "",
+            "city": "Reinheim"
+        },
+        {
+            "name": "Chopin-Gesellschaft in der Bundesrepublik Deutschland e. V.",
+            "url": "http://www.chopin-gesellschaft.de",
+            "confidenceLevel": "1",
+            "vorstand": "Aleksandra Mikulska",
+            "strasse": "Kasinostr.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bundesverband der Apotheker im öffentlichen Dienst (BApÖD) e.V.",
+            "url": "http://www.bapoed.de",
+            "confidenceLevel": "1",
+            "vorstand": "Frau Gudrun Eichler",
+            "strasse": "Hauptstraße",
+            "plz": "31195",
+            "bemerkungen": "",
+            "city": "Lamspringe"
+        },
+        {
+            "name": "Bundesverband für Country & Westerntanz Deutschland e.V. (BfCW)",
+            "url": "https://www.bfcw.com/",
+            "confidenceLevel": "1",
+            "vorstand": "Josip Miolcic",
+            "strasse": "",
+            "plz": "nicht angegeben",
+            "bemerkungen": "Schriftfuehrer@BfCW.com",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Christlicher Verein Junger Menschen Kreisverband Starkenburg des CVJM-Westbundes e.V.",
+            "url": "http://www.cvjm-kreisverband-starkenburg.de",
+            "confidenceLevel": "1",
+            "vorstand": "Stefan Failing",
+            "strasse": "Heidelberger Landstr.",
+            "plz": "64297",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bürger- und Kerbverein Heimstättensiedlung",
+            "url": "http://www.bkv-heimstaettensiedlung.de",
+            "confidenceLevel": "1",
+            "vorstand": "Hans-Jürgen Luft",
+            "strasse": "An der Maitanne",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "ClownsMadams&Buben e.V.",
+            "url": "http://www.clownsmadamsundbuben.de",
+            "confidenceLevel": "1",
+            "vorstand": "Konrad Büttner",
+            "strasse": "Elisabeth-Selbert-Straße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Carneval-Verein Orpheum Darmstadt 1967 e.V.",
+            "url": "http://www.cvo-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Manfred Bechold",
+            "strasse": "Rhönring",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Chamber Music",
+            "url": "http://www.daigose.de/chambermusic",
+            "confidenceLevel": "1",
+            "vorstand": "Thorsten Maier",
+            "strasse": "Steubenstr.",
+            "plz": "63743",
+            "bemerkungen": "",
+            "city": "Aschaffenburg"
+        },
+        {
+            "name": "Corvette Club Hessen e.V.",
+            "url": "http://www.corvette-club-hessen.de",
+            "confidenceLevel": "1",
+            "vorstand": "Robert Berger",
+            "strasse": "Kranichsteiner Str.",
+            "plz": "64390",
+            "bemerkungen": "",
+            "city": "Erzhausen"
+        },
+        {
+            "name": "Chorakademie Siena e. V.",
+            "url": "http://www.chorakademie-siena.de",
+            "confidenceLevel": "1",
+            "vorstand": "Gesa Rottler",
+            "strasse": "Bodenstedtstr.",
+            "plz": "30173",
+            "bemerkungen": "",
+            "city": "Hannover"
+        },
+        {
+            "name": "Darmbach e.V.",
+            "url": "http://www.darmbach-ev.de",
+            "confidenceLevel": "1",
+            "vorstand": "Prof. Dr.-Ing. Dieter Knauf",
+            "strasse": "Postfach",
+            "plz": "64202",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstadt Halkevi",
+            "url": "http://www.halkevi-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Yönetim Kurulu",
+            "strasse": "Luisenstr.",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Christoph Graupner-Gesellschaft",
+            "url": "http://www.christoph-graupner-gesellschaft.de",
+            "confidenceLevel": "1",
+            "vorstand": "Prof. Dr. Ursula Kramer",
+            "strasse": "Magdalenenstr.",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstadt Rockets - Baseball, Softball, Barbecue seit 1986",
+            "url": "http://www.rockets.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Elisabeth-Selbert-Straße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "CISV Germany, Group Darmstadt, Deutsche Gesellschaft für Internationale Kinder- und Jugendbegegnungen e. V.",
+            "url": "http://downloads.cisv.de/da/Satzung%20CISV%20Darmstadt.pdf",
+            "confidenceLevel": "1",
+            "vorstand": "Marcella Frick",
+            "strasse": "Rößlerstr.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Billard-Club 76",
+            "url": "http://www.dbc76.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Saalbaustr.",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Club Behinderter und ihrer Freunde in Darmstadt und Umgebung (CBF Darmstadt) e. V.",
+            "url": "http://www.cbf-da.de",
+            "confidenceLevel": "1",
+            "vorstand": "Patrick Baron",
+            "strasse": "Pallaswiesenstr.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Burschenschaft Gothia e.V.",
+            "url": "http://www.burschenschaft-gothia.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Wilhelminenstrasse",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Club für Tschechoslowakische Wolfshunde Deutschland e.V.",
+            "url": "http://www.twhclub.de",
+            "confidenceLevel": "1",
+            "vorstand": "Anke Buchmann",
+            "strasse": "Kiesbergweg",
+            "plz": "74545",
+            "bemerkungen": "",
+            "city": "Michelfeld"
+        },
+        {
+            "name": "Darmstädter Förderkreis Kultur e.V.",
+            "url": "http://www.kultur-foerderkreis.de",
+            "confidenceLevel": "1",
+            "vorstand": "Peter Benz",
+            "strasse": "Schuchardstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Juristische Gesellschaft",
+            "url": "http://dajurge.de",
+            "confidenceLevel": "1",
+            "vorstand": "c/o Dr. Ralf Köbler, Präsident des LG",
+            "strasse": "Mathildenplatz",
+            "plz": "64283",
+            "bemerkungen": "c/o Dr. Ralf Köbler",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "D-A-CH deutsch sprechender Gruppen für Gewaltfreie Kommunikation e. V.",
+            "url": "http://www.gewaltfrei-dach.eu",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. med. Irmtraud Kauschat",
+            "strasse": "Zimmerstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Schaustellerverband e.V.",
+            "url": "http://www.darmstaedter-schaustellerverband.de",
+            "confidenceLevel": "1",
+            "vorstand": "Bernd Salm",
+            "strasse": "Nieder-Ramstädter Str",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstadt Indian Association (DIA) e.V.",
+            "url": "http://www.dia-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Vishal Rawat",
+            "strasse": "Hochschulstraße c/o AStA TU Darmstadt",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "DARMSTÄDTER TAFEL e.V.",
+            "url": "http://darmstädtertafel.de",
+            "confidenceLevel": "1",
+            "vorstand": "Gert Wentrup",
+            "strasse": "Bismarckstraße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Atheneforum e.V.",
+            "url": "http://darmstaedter-atheneforum.de",
+            "confidenceLevel": "1",
+            "vorstand": "Robert Christian Eydam",
+            "strasse": "Dolivostraße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Bündnis gegen Depression e.V.",
+            "url": "http://www.buendnisgegendepression-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Manfred Raddatz",
+            "strasse": "Dieburger Straße",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "DARMSTADTIA e.V.",
+            "url": "http://www.darmstadt-stadtlexikon.de/d/darmstadtia-ev/",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Forum für psychoanalytische Heilpädagogik und Soziale Arbeit e.V.",
+            "url": "http://www.darmstaedter-forum.de",
+            "confidenceLevel": "1",
+            "vorstand": "Jutta Falkenhain-Pfeil",
+            "strasse": "Parsevalstr.",
+            "plz": "64347",
+            "bemerkungen": "",
+            "city": "Griesheim"
+        },
+        {
+            "name": "DaS KinD e.V. Dachverband Selbstorganisierter Kindereinrichtungen Darmstadt e.V.",
+            "url": "http://daskind.org",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Mathildenplatz",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Geowissenschaften e.V. (\"DGW\")",
+            "url": "http://www.geo-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Georg Kuhn",
+            "strasse": "Heinrichtraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Delta Lohnsteuerhilfeverein e.V.",
+            "url": "http://www.delta-lohnsteuerhilfe.de",
+            "confidenceLevel": "1",
+            "vorstand": "Niki Papadopoulos",
+            "strasse": "Pankratiusstraße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Initiative für Liepaja e.V.",
+            "url": "http://www.initiative-liepaja.de",
+            "confidenceLevel": "1",
+            "vorstand": "Klaus Wieland",
+            "strasse": "Erzhäuser Straße",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "DEMETER INTERNATIONAL e. V.",
+            "url": "https://demeter.de/verbraucher/ueber-uns/demeter-international",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Alexander Gerber",
+            "strasse": "Brandschneise",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Kreis für Berufliche Bildung-Förderverein der Heinrich-Emanuel-Merck-Schule",
+            "url": "http://www.dkbb.de",
+            "confidenceLevel": "1",
+            "vorstand": "Kurt Kiesel",
+            "strasse": "Alsfelderstr.",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Pflege- und Sozialdienst e. V.",
+            "url": "http://www.dpsd.de",
+            "confidenceLevel": "1",
+            "vorstand": "Doris Franke",
+            "strasse": "Hügelstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch - Ägyptischer Freundeskreis des Ägyptischen Vereins Darmstadt e.V.",
+            "url": "http://www.aev-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Fahima Nokraschi",
+            "strasse": "Pallaswiesenstr.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Schwimm- und Wassersport-Club 1912 e.V.",
+            "url": "http://www.dsw-1912.de",
+            "confidenceLevel": "1",
+            "vorstand": "Thomas Kipp",
+            "strasse": "Alsfelder Str.",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch-Baltische Gesellschaft e.V.",
+            "url": "http://www.deutsch-balten.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Christian von Boetticher",
+            "strasse": "Herdweg",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsche Akademie für Sprache und Dichtung",
+            "url": "https://www.deutscheakademie.de",
+            "confidenceLevel": "1",
+            "vorstand": "Corinna Blattmann",
+            "strasse": "Alexanderweg",
+            "plz": "64287",
+            "bemerkungen": "Glückert- Haus",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsche Gesellschaft für Kreativität e.V.",
+            "url": "http://www.kreativ-sein.org",
+            "confidenceLevel": "1",
+            "vorstand": "Prof. Dr. Jörg Mehlhorn",
+            "strasse": "Lucy-Hillebrand-Straße",
+            "plz": "44128",
+            "bemerkungen": "",
+            "city": "Mainz"
+        },
+        {
+            "name": "dasblumen",
+            "url": "http://dasblumen.de",
+            "confidenceLevel": "1",
+            "vorstand": "Jurek Werth",
+            "strasse": "Hügelstrasse",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsche Lebens-Rettungs-Gesellschaft eV. Bezirk Darmstadt-Dieburg E.V.",
+            "url": "http://bez-darmstadt-dieburg.dlrg.de",
+            "confidenceLevel": "1",
+            "vorstand": "Johannes Reuß",
+            "strasse": "Jägertorstr.",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt-Kranichstein"
+        },
+        {
+            "name": "Demeter Beratung e.V.",
+            "url": "https://demeter.de/fachwelt/landwirte/beratung",
+            "confidenceLevel": "1",
+            "vorstand": "Johannes Ell-Schnurr",
+            "strasse": "Brandschneise",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "DEUTSCHE POLIZEIGEWERKSCHAFT im DBB (DPolG), Landesverband Hessen e.V.",
+            "url": "http://www.dpolghessen.de",
+            "confidenceLevel": "1",
+            "vorstand": "Heini Schmitt",
+            "strasse": "Otto-Hesse-Straße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch-Buddhistische-Humanitäre Vereinigung",
+            "url": "http://www.dbhv.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Christoph Lübbert",
+            "strasse": "Elisabethenstraße",
+            "plz": "64283",
+            "bemerkungen": "c/o Buchhandlung Schirner",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsche Lebens-Rettungs-Gesellschaft Stadtverband Darmstadt e.V. -",
+            "url": "http://darmstadt.dlrg.de",
+            "confidenceLevel": "1",
+            "vorstand": "Jürgen Gaubatz",
+            "strasse": "Postfach",
+            "plz": "64219",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein der katholischen Innenstadtkirche St. Ludwig Darmstadt",
+            "url": "www.sankt-ludwig-darmstadt.de/index.php?id=180",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Hessisches Wirtschaftsarchiv e.V.",
+            "url": "www.hessischeswirtschaftsarchiv.de",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Menetekel, Förderverein akzeptierende Drogenhilfe und betreute Wohnformen",
+            "url": "www.menetekel-ev.de/index.html",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Schnelle Ionen e.V.",
+            "url": "www.schnelleionen.de/index.php/de",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Umkreis-Institut e.V.",
+            "url": "www.umkreis-institut.de/beratung",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Netzwerk ROPE e.V.\n c/o JugendKlub Kranichstein (JKK)",
+            "url": "http://jugendarbeit-in-europa.de/rope2016/",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Michael Hüttenberger",
+            "strasse": "Jägertorstraße",
+            "plz": "64289",
+            "bemerkungen": "Name verändert",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "\"Freunde und Förderer der Wilhelm-Hauff-Schule\"",
+            "url": "http://www.wilhelm-hauff-schule-da.de",
+            "confidenceLevel": "1",
+            "vorstand": "Bärbel Six",
+            "strasse": "Stresemannstraße",
+            "plz": "64297",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "\"Hessischer Basketball-Verband\" HBV",
+            "url": "http://www.hbv-basketball.de",
+            "confidenceLevel": "1",
+            "vorstand": "Michael Rüspeler",
+            "strasse": "Schlossbergweg",
+            "plz": "36286",
+            "bemerkungen": "",
+            "city": "Neuenstein-Saasen"
+        },
+        {
+            "name": "\"Krabbelkiste\" h_da e.V. Verein für Kinderbetreuung",
+            "url": "http://www.krabbelkiste-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Nadine Pfeifer",
+            "strasse": "Schöfferstraße",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "\"Verein von Altertumsfreunden im Regierungsbezirk Darmstadt e.V.\"",
+            "url": "http://www.altertumsfreunde-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Prof. Dr. F. Lang",
+            "strasse": "Ida‑Rhodes‑Straße",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "1. Darmstädter Ju Jutsu-Verein ASAHI e.V.",
+            "url": "http://www.ju-jutsu-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Andreas Trägler",
+            "strasse": "Moltkestraße",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "1. Highlander Sportclub Darmstadt (1.HSCD) e.V.",
+            "url": "http://highlander-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Volker Thielmann",
+            "strasse": "Liebfrauenstraße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "WIZO Gruppe Darmstadt e.V.",
+            "url": "wizo-ev.org/wizo-standorte-2/darmstadt-2",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "ABC-Club, Internationale Drillings- u. Mehrlingsinitiative eV",
+            "url": "http://www.abc-club.de",
+            "confidenceLevel": "1",
+            "vorstand": "Helga Grützner",
+            "strasse": "Strohweg",
+            "plz": "64297",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "AEGEE (Association des Etats Généraux des Etudiants de l`Europe) - Darmstadt e.V.",
+            "url": "http://www.aegee-darmstadt.eu",
+            "confidenceLevel": "1",
+            "vorstand": "Deniz Mohr",
+            "strasse": "Hochschulstraße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Aikido Föderation Deutschland e. V.",
+            "url": "http://www.aikido-foederation.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Günter Heck",
+            "strasse": "Noackstr.",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akademikerbund des VDSt Darmstadt-Köthen",
+            "url": "http://www.vdst-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Beckstraße",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akademischer Arbeitskreis Schienenverkehr an der Technischen Universität Darmstadt",
+            "url": "http://www.akabahn.de/startseite",
+            "confidenceLevel": "1",
+            "vorstand": "Christian Schlehuber",
+            "strasse": "Postfach 110 110",
+            "plz": "64216",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "\"Gilde der Drachenreiter\" e.V. Verein für Live-Rollenspiel und erlebte Geschichte",
+            "url": "http://www.drachenreiter.de/verein/wir-stellen-uns-vor",
+            "confidenceLevel": "1",
+            "vorstand": "Ralf Eberle",
+            "strasse": "Pankratiusstraße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "AktivInNepal",
+            "url": "http://aktivinnepal.tumblr.com",
+            "confidenceLevel": "1",
+            "vorstand": "Wilma Mohr",
+            "strasse": "Albrechtstrasse",
+            "plz": "12103",
+            "bemerkungen": "",
+            "city": "Berlin"
+        },
+        {
+            "name": "Alkohol- und Suchtselbsthilfe e.V.",
+            "url": "http://www.ass-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Hajo von Uffel",
+            "strasse": "Postfach 11 01 19",
+            "plz": "64216",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Allgemeiner Sportclub Darmstadt",
+            "url": "http://www.asc-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Till Lufft",
+            "strasse": "Postfach 12 02 11",
+            "plz": "64239",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Altherrenbund \"Rugia\" (AHB)",
+            "url": "http://www.rugia-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Wienerstraße",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Altherrenverband der Freien Burschenschaft Suebia (Freie Burschenschaft Suebia e.V.)",
+            "url": "http://www.fb-suebia.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dipl. Ing. Rolf-Dieter Banspach",
+            "strasse": "Frankfurter Str.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "1. Darmstädter Skate- und BMX Verein",
+            "url": "http://bmxworld.de",
+            "confidenceLevel": "1",
+            "vorstand": "Michael Gerold",
+            "strasse": "Lindenhofstraße Skatepark",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Altherren-Vereinigung (AHV) der Turnerschaft im CC Merovingia zu Darmstadt",
+            "url": "http://www.merovingia.de",
+            "confidenceLevel": "1",
+            "vorstand": "Jörg Wehrle",
+            "strasse": "Alexandraweg",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "A.H.-Verband der Alten Darmstädter Burschenschaft Germania e.V.",
+            "url": "http://www.adbgermania.de",
+            "confidenceLevel": "1",
+            "vorstand": "Patrick Krol",
+            "strasse": "Alexandraweg",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Anglerverein Darmstadt e.V.",
+            "url": "http://www.anglerverein-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Siegfried Roth",
+            "strasse": "Messeler Weg",
+            "plz": "64380",
+            "bemerkungen": "",
+            "city": "Roßdorf"
+        },
+        {
+            "name": "Advent - Wohlfahrtswerk e.V.",
+            "url": "http://www.aww.info",
+            "confidenceLevel": "1",
+            "vorstand": "Johannes Naether",
+            "strasse": "Hildesheimer Str.",
+            "plz": "30519",
+            "bemerkungen": "",
+            "city": "Hannover"
+        },
+        {
+            "name": "Ägyptischer Verein Darmstadt e.V.",
+            "url": "http://www.aev-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Fahima Nokraschi",
+            "strasse": "Pallaswiesenstr.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeitgeberstiftung Südhessen (AGSSH) e.V.",
+            "url": "http://www.agssh.de/",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Sigmar Herberg",
+            "strasse": "Rheinstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akademie 55plus Darmstadt e.V.",
+            "url": "http://www.aka55plus.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ulrike Poppensieker",
+            "strasse": "Heidelberger Str.",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akademische Motorsportgruppe Darmstadt e.V.",
+            "url": "http://www.amda-racing.de",
+            "confidenceLevel": "1",
+            "vorstand": "Michael Kummer",
+            "strasse": "Otto-Berndt-Straße",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akademischer Sport-Club e.V.",
+            "url": "https://ascdarmstadt.wordpress.com",
+            "confidenceLevel": "1",
+            "vorstand": "Mareike Schwed",
+            "strasse": "Kekuléstr.",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Aktionsgemeinschaft Darmstädter Innenstadt e.V. (Darmstadt Citymarketing e.V.)",
+            "url": "http://www.darmstadt-citymarketing.de",
+            "confidenceLevel": "1",
+            "vorstand": "Birgit Schäven",
+            "strasse": "Luisenplatz",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Allgemeiner Deutscher Hochschulsportverband (adh) e.V.",
+            "url": "http://www.adh.de",
+            "confidenceLevel": "1",
+            "vorstand": "Christoph Fischer",
+            "strasse": "Max-Planck-Str.",
+            "plz": "64807",
+            "bemerkungen": "",
+            "city": "Dieburg"
+        },
+        {
+            "name": "Arheilger Stadtteilverein (ASTV) e.V.",
+            "url": "http://www.arheilger-stadtteilverein.de",
+            "confidenceLevel": "1",
+            "vorstand": "Michael Jeder",
+            "strasse": "Ettesterstr.",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Alte-Herren-Vereinigung der Landsmannschaft \"Hasso-Borussia\" Darmstadt e.V.",
+            "url": "http://www.hasso-borussia.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dipl.-Ing. Michael Rieckenberg",
+            "strasse": "Dieburger Straße",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Ärztlicher Kreisverein Darmstadt",
+            "url": "http://www.aekv-da.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. med. Sven Tauchert",
+            "strasse": "Klappacher Str.",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Auto- und Bürgerpartei Deutschlands Landesverband Hessen",
+            "url": "www.afd-hessen.org/muench-die-afd-verurteilt-die-anschlaege-auf...",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "",
+            "plz": "Keine Angaben",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Amazing Facts Europe e.V.",
+            "url": "http://www.amazingfactseurope.org",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Daimlerweg",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bach-Chor Darmstadt",
+            "url": "http://www.bachchor-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Anita Kruse",
+            "strasse": "Traisaer Hohlweg",
+            "plz": "64367",
+            "bemerkungen": "",
+            "city": "Mühltal"
+        },
+        {
+            "name": "AmiMali e.V.",
+            "url": "http://www.amimali.de",
+            "confidenceLevel": "1",
+            "vorstand": "Monika Sieber-Piontek",
+            "strasse": "Hermannstaedter Weg",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Basketball-Club Darmstadt 1947",
+            "url": "http://bc-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Werner Borger",
+            "strasse": "Am Burgwald",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Betreutes Wohnen Darmstadt e.V.",
+            "url": "http://www.bwdev.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. phil. Manfred Gerspach",
+            "strasse": "Grafenstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeitsgemeinschaft Historische HEAG-Fahrzeuge im Eisenbahn-Museum Darmstadt-Kranichstein e.V.",
+            "url": "http://www.historische-heag-fahrzeuge.de",
+            "confidenceLevel": "1",
+            "vorstand": "Volker Feick",
+            "strasse": "Klappacher Straße",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bibel-Baptisten-Gemeinde e.V.",
+            "url": "http://www.bibelwahrheit.de",
+            "confidenceLevel": "1",
+            "vorstand": "Thomas Castellaw",
+            "strasse": "Hauptstr.",
+            "plz": "69257",
+            "bemerkungen": "",
+            "city": "Wiesenbach"
+        },
+        {
+            "name": "BIKOM-AES",
+            "url": "http://www.alice-eleonoren-schule.de/wp/bikom-aes/",
+            "confidenceLevel": "1",
+            "vorstand": "Jutta Frank-Gropper",
+            "strasse": "Martinstraße",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bildungszentrum für Kinder \"Umka\" e.V.",
+            "url": "http://umka-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Sensfelderweg",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Blended Learning Network - Verband der europäischen Blended Learning-Akteure e.V.",
+            "url": "http://www.blended-learning-network.eu",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Poststraße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "BMW Club Darmstadt",
+            "url": "http://www.bmw-club-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Hans-Michael Kempe",
+            "strasse": "Pfungstädter Str.",
+            "plz": "64297",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "B.C. (Basketballclub) Helios Darmstadt",
+            "url": "http://www.bchelios.de",
+            "confidenceLevel": "1",
+            "vorstand": "Özgür Dagdelen",
+            "strasse": "Moosbergstraße",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bund für freie und angewandte Kunst",
+            "url": "http://www.bfak-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Berit Schmitdt-Villnow",
+            "strasse": "Am Weidenborn",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bagpipe Association of Germany (BAG) e.V.",
+            "url": "http://www.bagev.de",
+            "confidenceLevel": "1",
+            "vorstand": "Anna Kummerlöw",
+            "strasse": "Crivitzer Straße",
+            "plz": "19374",
+            "bemerkungen": "",
+            "city": "Kladrum"
+        },
+        {
+            "name": "Bundesverband der Justizwachtmeister Hessen",
+            "url": "http://www.bundesverband-justizwachtmeister.de/die-landesverbaende/hessen.html",
+            "confidenceLevel": "1",
+            "vorstand": "Rüdiger Kiehl",
+            "strasse": "Mathildenplatz",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bärenstark Kinderintensivpflege e.V.",
+            "url": "http://baerenstark-intensivpflege.de",
+            "confidenceLevel": "1",
+            "vorstand": "Gabriele Hofmann",
+            "strasse": "Grafenstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bundesverband organisatorischer Brandschutz",
+            "url": "http://www.bvob.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Pallaswiesenstr.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bürgeraktion Bessungen/Ludwigshöhe e.V.",
+            "url": "http://www.bessungen-ludwigshoehe.de",
+            "confidenceLevel": "1",
+            "vorstand": "Erich Landzettel",
+            "strasse": "Ludwigshöhstraße",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Berufsverband der Pneumologen in Hessen e.V.",
+            "url": "http://hessen.pneumologenverband.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Christian von Mallinckrodt",
+            "strasse": "Hainenbachtraße",
+            "plz": "89522",
+            "bemerkungen": "",
+            "city": "Heidenheim an der Brenz"
+        },
+        {
+            "name": "C P A",
+            "url": "http://auf-der-hoehe.de/cpa/",
+            "confidenceLevel": "1",
+            "vorstand": "Norbert Dorotik",
+            "strasse": "Auf der Marienhöhe",
+            "plz": "64297",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bessunger Rappelkiste e.V.",
+            "url": "https://bessungerrappelkiste.wordpress.com",
+            "confidenceLevel": "1",
+            "vorstand": "Julia Bausenwein",
+            "strasse": "Bessunger Str.",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Campus Mission International Darmstadt e.V.",
+            "url": "http://cmi-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Manfred Roth",
+            "strasse": "Donnersbergring",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Chaos Darmstadt e.V.",
+            "url": "https://www.chaos-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Wilhelminenstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bienenzüchterverein Darmstadt und Umgebung",
+            "url": "http://imkerverein-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ben Herdin Lüttges",
+            "strasse": "Jahnstraße",
+            "plz": "64347",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Chong Ki Shin Hapkido Darmstadt e.V.",
+            "url": "http://www.chongkishin-hapkido.com",
+            "confidenceLevel": "1",
+            "vorstand": "Benjamin Billmann",
+            "strasse": "Frankfurter Landstraße",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Borreliose und FSME Bund Deutschland e.V. Patientenorganisation Bundesverband",
+            "url": "http://www.borreliose-bund.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ute Fischer",
+            "strasse": "Postfach 1205",
+            "plz": "64834",
+            "bemerkungen": "",
+            "city": "Münster"
+        },
+        {
+            "name": "Bridge-Club-Darmstadt-1965",
+            "url": "http://www.bridgeclub-darmstadt-1965.de",
+            "confidenceLevel": "1",
+            "vorstand": "Sarah-Gisela Hahn",
+            "strasse": "Brüder-Knauß-Str.",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Club Daguerre - Vereinigung zur Pflege der historischen Aspekte der Photographie",
+            "url": "http://www.club-daguerre.de",
+            "confidenceLevel": "1",
+            "vorstand": "Manfred Romboy",
+            "strasse": "Försterweg",
+            "plz": "50389",
+            "bemerkungen": "",
+            "city": "Wesseling"
+        },
+        {
+            "name": "Buddhistische Meditationsgruppe Darmstadt KTT e.V.",
+            "url": "http://www.buddhistische-meditationsgruppe-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Alobar Werner",
+            "strasse": "Adelungstr.",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Club Latinoamericano Darmstadt",
+            "url": "http://www.club-latinoamericano.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Hochschulstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Competence Center for Applied Security Technology",
+            "url": "https://www.cast-forum.de",
+            "confidenceLevel": "1",
+            "vorstand": "Prof. Dr. J. Buchmann",
+            "strasse": "Rheinstrasse",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bundesverband Bildender Künstlerinnen und Künstler, Regionalverband Darmstadt e.V. (Kurzform BBK Darmstadt)",
+            "url": "http://www.bbk-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Zygmunt Blazejewski",
+            "strasse": "Riedeselstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Danubius ungarischer Sprach- und Kulturverein Darmstadt",
+            "url": "http://www.danubius-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Mária Galai",
+            "strasse": "Friedrich-Ebert-Str.",
+            "plz": "64297",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstadt KulturStärken",
+            "url": "http://www.darmstadt-kulturstaerken.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ives Humeau",
+            "strasse": "Liebfrauenstrasse",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Buschwerk, Förderverein Wilhelm-Busch-Schule, Arheilgen",
+            "url": "http://web208635.web31.dogado.de/foerderverein/",
+            "confidenceLevel": "1",
+            "vorstand": "Antje Fischer",
+            "strasse": "Wilhelm-Busch-Weg",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Caritasverband Darmstadt e.V.",
+            "url": "https://www.caritas-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Franz-Josef Kiefer",
+            "strasse": "Heinrichstraße",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Fecht-Club 1890 Darmstadt",
+            "url": "http://www.dfc1890.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Harald Lüders",
+            "strasse": "Fasanenweg",
+            "plz": "64546",
+            "bemerkungen": "",
+            "city": "Mörfelden-Walldorf"
+        },
+        {
+            "name": "Darmstädter Freundeskreis der Multiple Sklerose Gesellschaft e.V.",
+            "url": "http://www.ms-freundeskreis-da.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Jan Sombroek",
+            "strasse": "Humboldtweg",
+            "plz": "64297",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Goethe-Gesellschaft",
+            "url": "http://www.goethe-gesellschaft-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Prof. Dr. Gernot Böhme",
+            "strasse": "Kasinostraße",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Jäger e.V.",
+            "url": "http://www.darmstädter-jäger.com",
+            "confidenceLevel": "1",
+            "vorstand": "Andreas A. Neumann",
+            "strasse": "Am Grundweg",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Seeheim-Jugenheim"
+        },
+        {
+            "name": "Chor 2002 Darmstadt e.V.",
+            "url": "http://www.surprising2002.de",
+            "confidenceLevel": "1",
+            "vorstand": "Karl-Heinz Eichenauer",
+            "strasse": "Göthsbachstr.",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Christian Heinrich Rinck-Gesellschaft",
+            "url": "http://www.rinck-gesellschaft.de",
+            "confidenceLevel": "1",
+            "vorstand": "Henning Klinkenberg",
+            "strasse": "Im Gartenfeld",
+            "plz": "55278",
+            "bemerkungen": "Arbeitskreis Darmstadt\n Sigrid Wolff, Händelstr. 7, 64291 Darmstadt",
+            "city": "Dalheim"
+        },
+        {
+            "name": "Darmstädter Turn- und Sportgemeinde 1846",
+            "url": "http://www.tsg-1846.de",
+            "confidenceLevel": "1",
+            "vorstand": "Astrid Dingeldein",
+            "strasse": "Heinrich-Fuhr-Straße",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Club 7 Verein für Schießsport",
+            "url": "http://www.club7darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Schillerstraße",
+            "plz": "64625",
+            "bemerkungen": "",
+            "city": "Bensheim"
+        },
+        {
+            "name": "Dartclub Dartmoor Darmstadt e.V.",
+            "url": "http://www.dartclub-dartmoor.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Rheinstrasse",
+            "plz": "64283",
+            "bemerkungen": "\"Checkpoint\"  info@checkpoint-dart.de",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Datterologische Gesellschaft e.V.",
+            "url": "http://www.datterich-festival.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Kittlerstraße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Collegium Musicum Vocale Darmstadt e.V.",
+            "url": "http://www.cmvd.net",
+            "confidenceLevel": "1",
+            "vorstand": "Rainer Fuchs",
+            "strasse": "nicht angegeben",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Demeter e.V.",
+            "url": "https://demeter.de/fachwelt/landwirte/beratung",
+            "confidenceLevel": "1",
+            "vorstand": "Dr. Alexander Gerber",
+            "strasse": "Brandschneise",
+            "plz": "64295",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Computerwerk Darmstadt e.V.",
+            "url": "https://www.computerwerk.org",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "Hochschulstraße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "dabei sein e.V.",
+            "url": "http://www.dabeisein.org",
+            "confidenceLevel": "1",
+            "vorstand": "Anne-Kathrin Matz",
+            "strasse": "Schwarzer Weg",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstadt Citymarketing e.V.",
+            "url": "http://www.darmstadt-citymarketing.de",
+            "confidenceLevel": "1",
+            "vorstand": "Birgit Schäven",
+            "strasse": "Luisenplatz",
+            "plz": "64283",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch-Baltische Genealogische Gesellschaft",
+            "url": "http://www.dbgg.de",
+            "confidenceLevel": "1",
+            "vorstand": "Andreas Hansen",
+            "strasse": "Herdweg",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch-Bulgarische Gesellschaft Darmstadt",
+            "url": "http://www.dbgd.de",
+            "confidenceLevel": "1",
+            "vorstand": "Nadeschda Büse",
+            "strasse": "Kasinostr.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Architektursommer e.V.",
+            "url": "http://darmstaedter-architektursommer.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Herdweg",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsche Ismakogie Gesellschaft",
+            "url": "http://www.ismakogie-de.eu",
+            "confidenceLevel": "1",
+            "vorstand": "Christiane Röttger",
+            "strasse": "Akazienweg",
+            "plz": "64521",
+            "bemerkungen": "",
+            "city": "Groß Gerau"
+        },
+        {
+            "name": "Darmstädter Club der Windhundfreunde",
+            "url": "http://dcwdarmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Angelika Podkonjak",
+            "strasse": "Alter Griesheimer Weg",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Gartenfreunde 1931 e.V.",
+            "url": "http://www.kleingaertner-starkenburg.de/projekt01/index.php?idcatside=65",
+            "confidenceLevel": "1",
+            "vorstand": "Marianne Stellbrink",
+            "strasse": "Parkstraße",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Tage der Fotografie",
+            "url": "http://www.dtdf.de",
+            "confidenceLevel": "1",
+            "vorstand": "nicht angegeben",
+            "strasse": "Kasinostr.",
+            "plz": "64293",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstompers Square Dance Club Darmstadt",
+            "url": "http://www.darmstompers.de",
+            "confidenceLevel": "1",
+            "vorstand": "Angelika Reinheimer",
+            "strasse": "Friedrich-Ebert-Str.",
+            "plz": "64347",
+            "bemerkungen": "",
+            "city": "Griesheim"
+        },
+        {
+            "name": "Das Rudel",
+            "url": "http://www.dasrudel.de",
+            "confidenceLevel": "1",
+            "vorstand": "Robert Kuhn",
+            "strasse": "Rathausstr.",
+            "plz": "65203",
+            "bemerkungen": "",
+            "city": "Wiesbaden"
+        },
+        {
+            "name": "Demenz-Forum-Darmstadt",
+            "url": "http://www.demenzforum-darmstadt.de",
+            "confidenceLevel": "1",
+            "vorstand": "Dorothee Munz-Sundhaus",
+            "strasse": "Heinheimer Str.",
+            "plz": "64289",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Der C!rkel e. V.",
+            "url": "http://dercirkel.de",
+            "confidenceLevel": "1",
+            "vorstand": "Frank A. Weber",
+            "strasse": "Alfred-Messel-Weg",
+            "plz": "64287",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch - Äthiopische Freundschaftsgesellschaft",
+            "url": "http://www.daefg.de",
+            "confidenceLevel": "1",
+            "vorstand": "Ahmed Abdulwahab",
+            "strasse": "Steubenpl.",
+            "plz": "64293",
+            "bemerkungen": "c/o Iyasu Assefa",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch-Baltische Gesellschaft in Hessen und Thüringen e.V.",
+            "url": "http://www.deutsch-balten.de",
+            "confidenceLevel": "1",
+            "vorstand": "Jürgen v. Boetticher",
+            "strasse": "Herdweg",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsche Gesellschaft für Leichtathletik-Dokumentation e.V.",
+            "url": "http://www.leichtathletik-dgld.de",
+            "confidenceLevel": "1",
+            "vorstand": "Manfred Grieser",
+            "strasse": "Toskastraße",
+            "plz": "41159",
+            "bemerkungen": "",
+            "city": "Leipzig"
+        },
+        {
+            "name": "Deutsche Lebensrettungs-Gesellschaft Ortsgruppe Eberstadt e.V.",
+            "url": "http://www.eberstadt.dlrg.de",
+            "confidenceLevel": "1",
+            "vorstand": "Steffen Bäurle",
+            "strasse": "Mathildenstraße",
+            "plz": "64285",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsche Polizeigewerkschaft im DBB (DPolG), Landesverband Hessen e.V., Kreisverband Südhessen e.V.",
+            "url": "http://www.dpolghessen.de/kreisverbaende/suedhessen/",
+            "confidenceLevel": "1",
+            "vorstand": "Jürgen Stütz",
+            "strasse": "Röntgenstr.",
+            "plz": "64291",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Freundeskreis der Darmstädter Kantorei",
+            "url": "www.darmstaedterkantorei.de/freundeskreis1",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "GinCo e.V.",
+            "url": "ginco-ev.com/de",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein Schullandheim der Viktoriaschule Darmstadt",
+            "url": "www.viktoriaschule-darmstadt.de/Schulchronik_Infothek_Viktoriaschule",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
+            "name": "WiBiNET e.V.",
+            "url": "wibinet.net",
+            "confidenceLevel": "1",
+            "vorstand": "",
+            "strasse": "",
+            "plz": "",
+            "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+        {
             "name": "Bundesverband der Lehrer/-innen für das Eisenbahnwesen an beruflichen Schulen e.V.",
             "url": "http://www.blbs.de",
             "confidenceLevel": 0,
@@ -11428,7 +13598,7 @@
                 1
             ],
             "sameCity": [
-                false,
+                false
             ],
             "city": "Darmstadt"
         },
