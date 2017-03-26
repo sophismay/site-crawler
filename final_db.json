@@ -1,5 +1,971 @@
 {
     "confirmed": [
+                {
+            "name": "Deutsche Vereinigung für Religionsfreiheit E. V.",
+            "url": "http://www.dv-religionsfreiheit.org",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Evangelischer Hospiz- und Palliativ-Verein Darmstadt e.V.",
+            "url": "http://www.ev-hospizverein.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "DEUTSCHER VERBAND FÜR MODERNEN FÜNFKAMPF e.V. (DVMF)",
+            "url": "http://www.dvmf.de",
+            "confidenceLevel": 0.8333333333333334,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Kammerorchester Pro Musica Darmstadt",
+            "url": "http://www.promusica-darmstadt.de",
+            "confidenceLevel": 0.75,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Fördergemeinschaft Peter-Behrens-Schule e.V.",
+            "url": "http://www.peter-behrens-schule.de",
+            "confidenceLevel": 0.6666666666666666,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Frank-Wedekind Gesellschaft e.V.",
+            "url": "http://www.frankwedekind-gesellschaft.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Gewerbeverein Kranichstein e.V",
+            "url": "http://www.gewerbeverein-kranichstein.eu",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "FÖRDERVEREIN ZuKT e.V. Ausbildungsbereich Zeitgenössischer und Klassischer Tanz Hochschule für Musik und Darstellende Kunst Frankfurt am Main",
+            "url": "http://www.hfmdk-frankfurt.info",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Frauen Verein Roza Darmstadt e.V.",
+            "url": "http://www.vielbunt.org",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Marching Devils e.V.",
+            "url": "http://www.marching-devils.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Krabbelstube Krachmacher",
+            "url": "http://www.krachmacher-darmstadt.com",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Jugger Darmstadt e.V.",
+            "url": "http://www.jugger-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Musikverein Arheilgen 1997 e.V.",
+            "url": "http://www.musikverein-arheilgen.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Krabbelstube Schmuddelkinder e.V.",
+            "url": "http://www.schmuddelkinder.net",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Shinson Hapkido Darmstadt e.V.",
+            "url": "http://www.shinsonhapkido.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Naturheilverein Darmstadt und Umgebung 1884 e.V.",
+            "url": "http://www.naturheilverein-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Münster"
+        },
+        {
+            "name": "Makerspace Darmstadt e.V.",
+            "url": "http://www.l1a.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Sahaja Yoga Darmstadt",
+            "url": "http://www.sahajayoga.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Seniorenrat Darmstadt e.V.",
+            "url": "http://www.seniorenrat-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Velociped - Club 1899 Darmstadt",
+            "url": "http://www.vc-darmstadt.org",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Initiative lebendiger Riegerplatz",
+            "url": "http://www.martinsviertel-darmstadt.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Puls e.V.",
+            "url": "http://www.zukunft-lausitz.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Ubuntu e.V. - Haus der Künste, der Materialien, der Bildung - ein Ort der Begegnung",
+            "url": "http://www.ubuntu-dorf.de",
+            "confidenceLevel": 0.875,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "MATPIC HESSEN 02 - Darmstädter Initiative zur Förderung regionaler Filmkultur",
+            "url": "http://www.martinsviertel-darmstadt.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verband Deutscher Chemotechniker und Chemischtechnischer Assistenten e. V.",
+            "url": "http://www.vdc-cta.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Uni-DAS",
+            "url": "http://www.uni-das.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Zusammen in der Postsiedlung e.V.",
+            "url": "http://www.postsiedlung.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Evangelisches Jugendwerk Darmstadt",
+            "url": "http://www.ejw-darmstadt.org",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Freundeskreis der Freien christlichen Schule Darmstadt",
+            "url": "http://www.sabine-ball-schule.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Drachenbootverein Darmstadt/Groß-Gerau e.V.",
+            "url": "http://www.draboot.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Wirtschaftsverband Papierverarbeitung (WPV) e.V.",
+            "url": "http://www.papierverarbeitung.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein für Deutsche Schäferhunde (SV) e.V. Ortsgruppe Darmstadt-Nord",
+            "url": "http://www.schaeferhunde.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Tennisbezirk Darmstadt im HTV e.V.",
+            "url": "http://www.htv-tennis.de",
+            "confidenceLevel": 0.6666666666666666,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein für Männerarbeit der Evangelischen Kirche in Hessen und Nassau",
+            "url": "http://www.ekhn.de",
+            "confidenceLevel": 0.6666666666666666,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Europäischer Partnerschaftsverein e.V.",
+            "url": "http://www.partnerschaftsverein-limburg.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Elektrotechnischer Verein an der Technischen Universität Darmstadt e.V. (ETV)",
+            "url": "http://www.etv-darmstadt.org",
+            "confidenceLevel": 0.6666666666666666,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeitsgemeinschaft rechts- und staatswissenschaftlicher Verlage e.V.",
+            "url": "http://www.juristische-verlage.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Baugemeinschaft Kranichstein e.V.",
+            "url": "http://www.bundesverband-baugemeinschaften.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Kinderhaus auf dem Pfarrhof e.V.",
+            "url": "http://www.kirche-wixhausen.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Vespa-Club Darmstadt",
+            "url": "http://www.vespaclub.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kontrapunkt e.V.",
+            "url": "http://www.kontrapunktev.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein für Jugend",
+            "url": "http://www.jugend-verein.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Goetheschule Darmstadt e.V.",
+            "url": "http://www.goetheschule-darmstadt.de",
+            "confidenceLevel": 0.6666666666666666,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Grundschule Astrid-Lindgren e.V.",
+            "url": "http://www.fv-astrid-lindgren-grundschule.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Gemeinsamer Förderverein der Darmstädter Lions e.V.",
+            "url": "http://www.darmstaedter-lions-adventskalender.de",
+            "confidenceLevel": 0.6,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kinder - und Jugendfarm Darmstadt e.V.",
+            "url": "http://www.kinderfarm-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kulturverein der modernen Hausmusik",
+            "url": "http://www.kulturvilla.com",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "L1A Makerspace e.V.",
+            "url": "http://www.l1a.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Institut für Afghanistik & Stärkung der digitalen Bürgergesellschaft in Afghanistan / Institute für Afghan Studies & Empowerment of Digital Civic Society in Afghanhistan e.V.",
+            "url": "http://www.afghanistik.de",
+            "confidenceLevel": 0.8235294117647058,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Tanzsport Club Darmstadt 2000 e.V.",
+            "url": "http://www.tsc-darmstadt-2000.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Gewerbeverein Wixhausen e.V.",
+            "url": "http://www.gewerbeverein-wixhausen.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "VSG Darmstadt 1949 e.V.",
+            "url": "http://www.vsg-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Karate-Centrum Shotokan Darmstadt e.V.",
+            "url": "http://www.karate-darmstadt.de",
+            "confidenceLevel": 0.6666666666666666,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein der Köche Starkenburg e.V. Darmstadt-Odenwald-Bergstraße",
+            "url": "http://www.koeche-starkenburg.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Forum Beruf, Karriere, Zukunft e.V.",
+            "url": "http://www.forumev.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutscher Old English Sheepdog Club",
+            "url": "http://www.doesc-hessen.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein für Volksgesundheit Darmstadt (Biochemischer Verein) e.V.",
+            "url": "http://www.biochemie-online.org",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Evangelischer Bund Hessen und Nassau und Kurhessen-Waldeck e.V.",
+            "url": "http://www.evangelischer-bund.de",
+            "confidenceLevel": 0.6666666666666666,
+            "sameCity": true,
+            "city": "Bensheim"
+        },
+        {
+            "name": "Sozialpsychiatrischer Verein Darmstadt e.V.",
+            "url": "http://www.sozialpsychiatrischer-verein.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderkreis Jagdschloss Kranichstein e.V.",
+            "url": "http://www.foerderkreis-jagdschloss-kranichstein.de",
+            "confidenceLevel": 0.75,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstadt Flying Club e.V.",
+            "url": "http://www.flydfc.com",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Forum für dramatische Künste",
+            "url": "http://www.westsidetheatre.de",
+            "confidenceLevel": 0.6666666666666666,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Zentrum für Betriebswirtschaft e. V.",
+            "url": "http://www.zbg.uni-hannover.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Sportverein Schachforum Darmstadt 1994",
+            "url": "http://www.schachforum-darmstadt.de",
+            "confidenceLevel": 0.6666666666666666,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Didacta Verband e.V.-Verband der Bildungswirtschaft",
+            "url": "http://www.didacta.de",
+            "confidenceLevel": 0.75,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kreisverband Freie Wähler e.V.",
+            "url": "http://www.fw-kreisverband-zwickau.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Musiker helfen Kindern",
+            "url": "http://www.musiker-helfen-kindern.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Sailing Team Darmstadt e. V.",
+            "url": "http://www.st-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Liberale Synagoge Darmstadt e.V. - Verein für Erinnerungskultur",
+            "url": "http://www.liberale-synagoge-darmstadt.de",
+            "confidenceLevel": 0.8333333333333334,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Diospi Suyana e.V.",
+            "url": "http://www.diospi-suyana.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch - Somalischer Frauenverein e.V.",
+            "url": "http://www.afro-deutscher-frauenverein-rheine-ev.net",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Paläontologisch - geologische Arbeitsgemeinschaft Grube Messel",
+            "url": "http://www.grube-messel.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein für soziale Medizin",
+            "url": "http://www.vsb-online.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Gebäudeenergieberater in Hessen e.V.",
+            "url": "http://www.gih.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verband der Funkamateure in Telekommunikation und Post (VFDB)",
+            "url": "http://www.vfdb.net",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein für deutsch - türkische Kultur",
+            "url": "http://www.tkiv-rt.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch-Polnische Gesellschaft Darmstadt e.V.",
+            "url": "http://www.deutsches-polen-institut.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Freunde der Karlshofkultur e.V.",
+            "url": "http://www.freunde-der-va.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein für Reha- und Gesundheitssport Darmstadt",
+            "url": "http://www.vsg-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Darmstädter Kinderkliniken Prinzessin Margret e.V.",
+            "url": "http://www.kinderkliniken.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "RADAR e.V.",
+            "url": "http://www.radar-frankfurt.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Internationales Kommunikations- und Kulturzentrum",
+            "url": "http://www.subonline.org",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Wilhelm-Petersen-Gesellschaft e. V.",
+            "url": "http://www.wilhelm-petersen-gesellschaft.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "AKAKRAFT TUD (Akademische Kraftfahrgruppe an der Technischen Universität Darmstadt) e.V., Förderverein",
+            "url": "http://www.akakraft-darmstadt.de",
+            "confidenceLevel": 0.625,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Ski- und Snowboardclub \"Alte Norwegische Griechen\" e.V.",
+            "url": "http://www.ssc-malsch.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Gesellschaft für Christlich-Jüdische Zusammenarbeit Darmstadt",
+            "url": "http://www.darmstadt.deutscher-koordinierungsrat.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Sportgemeinschaft Arheilgen 1876/1945 e. V.",
+            "url": "http://www.sg-arheilgen.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein der Fußballjugend in Eberstadt e.V.",
+            "url": "http://www.svefussballjugend.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Südhessische Vereinigung für Erziehungshilfe",
+            "url": "http://www.svs-stormarn.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Vereinigung der Universitätsgruppen der TU Darmstadt e.V.",
+            "url": "http://www.tu-darmstadt.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kindergruppe Spatzennest e.V.",
+            "url": "http://www.spatzennest.info",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Abitur 2000 Lichtenbergschule Darmstadt",
+            "url": "http://www.luo-seb.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Leo-Trotzki-Gesellschaft e.V.",
+            "url": "http://www.trotzki.hol.es",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "ClandestIni - Solidarität mit Flüchtlingen",
+            "url": "http://www.stiftung-do.org",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Tennis- und Eisclub Darmstadt e.V.",
+            "url": "http://www.tec-darmstadt.net",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein KiTa Meißnerweg e.V.",
+            "url": "http://www.foerderverein-kita-meissnerweg.jimdo.com",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Turngemeinde Bessungen 1865 Darmstadt e.V.",
+            "url": "http://www.tgb-turnabteilung.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein für demokratische Öffentlichkeitregionalblatt Darmstadt e.V.",
+            "url": "http://www.mehr-demokratie.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kindergruppe Rasselbande",
+            "url": "http://www.kindergruppe-rasselbande.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Reitverein Kranichsteiner Hof e.V.",
+            "url": "http://www.kranichsteinerhof.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "International Kids' English Club e.V.",
+            "url": "http://www.ikec.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Dr. Karl Grünewald Stiftung e.V.",
+            "url": "http://www.schuelerbarometer.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Reit- und Fahrverein Darmstadt-Arheilgen e.V. gegr. 1927",
+            "url": "http://www.reitverein-arheilgen.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein der Freunde der Christoph-Graupner-Schule",
+            "url": "http://www.vereinderfreundersa.com",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Rentnerblitz",
+            "url": "http://www.rentnerblitz.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Sportverein Darmstadt 1898 e.V.",
+            "url": "http://www.sv98.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein der Fachschaft Informatik an der TU Darmstadt e.V.",
+            "url": "http://www.fachschaft.informatik.tu-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Demokratisches Gesellschaftszentrum der KurdInnen in Darmstadt e.V.",
+            "url": "http://www.navdem.com",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Juristenvereinigung Südhessen e.V.",
+            "url": "http://www.juristenvereinigung.com",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Film und Videoclub Darmstadt e.V.",
+            "url": "http://www.bdfa-hessen.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Gemeinnütziger Schulverein Darmstadt e.V.",
+            "url": "http://www.pelzl-online.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bushido-Club Darmstadt e.V.",
+            "url": "http://www.bcmayen.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein für Hauspflege e.V.",
+            "url": "http://www.vereinfuerhauspflege.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Freundeskreis für Internationalen Tanz und Kultur",
+            "url": "http://www.freundeskreis-hannover.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Versorgungswerk der Kreishandwerkerschaft Darmstadt e.V.",
+            "url": "http://www.kh-da.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kongress der Deutschen Lions Darmstadt 2016 e.V.",
+            "url": "http://www.mdv-bamberg.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Mieterbund Darmstadt Region Südhessen e.V.",
+            "url": "http://www.mieterbund-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Projekt Lotse - Darmstadt",
+            "url": "http://www.ebusiness-info.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "IHK Darmstadt Treuhand e.V.",
+            "url": "http://www.darmstadt.ihk.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Franz - Hitze - Haus e.V.",
+            "url": "http://www.tagen-im-franz-hitze-haus.de",
+            "confidenceLevel": 1,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeitsgemeinschaft Umwelt Lichtenbergschule",
+            "url": "http://www.arbeitsgemeinschaft-projekt-umweltschutz-naturschutz-asien.org",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein Ägyptischer Studenten e.V. (VÄS e.V.)",
+            "url": "http://www.studentop.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Gesellschaft AV - Haus e. V. Darmstadt",
+            "url": "http://www.deutsch-balten.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Sportgemeinschaft Fußballtrainer Darmstadt - Groß-Gerau e.V.",
+            "url": "http://www.bsg-gross-gerau.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Interessengemeinschaft Luisen-Center e.V.",
+            "url": "http://www.bulli.org",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein zur Förderung des Triathlonsportes (Förderverein Triathlon)",
+            "url": "http://www.foerderverein-wasserratten-triathlon.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "PhilippinenHilfe Save a Child e.V.",
+            "url": "http://www.savethechildren.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Uranus e. V.",
+            "url": "http://www.91schule-leipzig.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "rock'n'roll Club Rot Gold Darmstadt e.V.",
+            "url": "http://www.blau-gold-darmstadt.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Sportgemeinschaft BARMER GEK Darmstadt e.V.",
+            "url": "http://www.barmer.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Der Geistige Rat der Bahá'i in Darmstadt",
+            "url": "http://www.bahai.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Unterstützungskasse der Firma Seydel & Cie in Darmstadt e.V.",
+            "url": "http://www.bestealtersvorsorge.com",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein der Freunde und Förderer der Neurologie in Darmstadt e.V.",
+            "url": "http://www.klinikum-darmstadt.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "KUNSTFABRIK e.V.",
+            "url": "http://www.casa-b.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Sportgemeinschaft Tower Treff Darmstadt e.V.",
+            "url": "http://www.darmstadt.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Institut für Fertigungsforschung e. V. (IFF)",
+            "url": "http://www.iff-hamburg.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Gütegemeinschaft Wellpappe e.V.",
+            "url": "http://www.wellpappen-industrie.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Merck Pensionstreuhand e.V.",
+            "url": "http://www.merck.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
         {
             "name": "\"Akademische Fliegergruppe Darmstadt\", technisch-wissenschaftliche Vereinigung an der Technischen Universität Darmstadt zur Förderung u. Pflege d. Flugwesens, abgekürzt \"Akaflieg Darmstadt\"",
             "url": "https://www.akaflieg.tu-darmstadt.de",
@@ -1838,6 +2804,83 @@
             "strasse": "Humboldtweg",
             "plz": "64297",
             "bemerkungen": "",
+            "city": "Darmstadt"
+        },
+                {
+            "name": "Evence, Forum für Kunst und Kultur in Wirtschaft, Wissenschaft und Politik",
+            "url": "http://www.evence.com",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "LIONS FÖRDERVEREIN DARMSTADT-MATHILDENHÖHE e.V.",
+            "url": "http://www.lions.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Prostatitis Hilfe e.V.",
+            "url": "http://www.netdoktor.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Rhein-Main Tomonokai e.V.",
+            "url": "http://www.rhein-main-tomonokai.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein zur Förderung des Instituts IWAR der Technischen Universität Darmstadt e.V.",
+            "url": "http://www.xn--iwar-frderverein-rwb.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Interessengemeinschaft Kynologischer Organisationen Darmstadt und Umgebung",
+            "url": "http://www.igko.ch",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein der Fachschaft Maschinenbau an der TU Darmstadt e. V.",
+            "url": "http://www.fachschaft.informatik.tu-darmstadt.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "HII. Neo-Märtt. Elisabeth und Alexandra Förder- und Kultur Verein e.V.",
+            "url": "http://www.darmstadt-verein.de",
+            "confidenceLevel": 0,
+            "sameCity": true,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein des Instituts für Baubetrieb der TU Darmstadt e.V.",
+            "url": "http://www.tertius-sum.eu",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Cultureteam e.V.",
+            "url": "http://www.party-fitness.de",
+            "confidenceLevel": 0,
+            "sameCity": false,
+            "city": "Darmstadt"
+        },
+        {
+            "name": "VWI ESTIEM Hochschulgruppe TU Darmstadt e.V.",
+            "url": "http://www.vwi-darmstadt.de",
+            "confidenceLevel": 1,
+            "sameCity": true,
             "city": "Darmstadt"
         },
         {
@@ -6512,6 +7555,2045 @@
         }
     ],
     "unconfirmed": [
+        {
+            "name": "Trägerverein des selbstverwalteten Darmstädter Jugend- und Kulturzentrums Oetinger Villa e.V.",
+            "urls": [
+                "oetingervilla.de",
+                "echo-online.de"
+            ],
+            "confidenceLevels": [
+                0.125
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "KULTURGEMEINDE DERSIM - \"BONÊ KULTURÊ DÊSIMI\"",
+            "urls": [
+                "firmenwissen.de",
+                "ab-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                0
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Abenteuerspielplätze Darmstadt e. V.",
+            "urls": [
+                "abenteuerspielplatz.de",
+                "spielplatznet.de",
+                "kinderfarm-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Treff Angepaßte Technologie",
+            "urls": [
+                "alternative-technologie.de",
+                "grat.at",
+                "dict.cc"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Goldmarie - Verein zur Förderung feministischer Kulturarbeit",
+            "urls": [
+                "kuf-kultur.nuernberg.de",
+                "lotta-verein.de",
+                "verein-fem-theologie.de"
+            ],
+            "confidenceLevels": [
+                0.4,
+                0.4
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Freunde und Förderer des Abendgymnasiums Darmstadt e.V.",
+            "urls": [
+                "abendgymnasium-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "FLUGLÄRM ARBEITSKREIS-WIXHAUSEN e.V.",
+            "urls": [
+                "bund-darmstadt.de",
+                "fluglaerm.de",
+                "fr-online.de",
+                "dfld.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Elisabeth Langgässer-Gesellschaft und Gesellschaft zur Pflege und Verbreitung deutschsprachiger jüdischer Dichtung e.V.",
+            "urls": [
+                "alg.de",
+                "christenundjuden-darmstadt.de",
+                "darmstadt.de",
+                "literaturhaus-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                0.2222222222222222,
+                0.3333333333333333,
+                0
+            ],
+            "sameCity": [
+                false,
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Georg Müller Christliche Bekenntnisschule",
+            "urls": [
+                "gmsvs.de",
+                "gms-net.de",
+                "gesamtschule.gmsen.de"
+            ],
+            "confidenceLevels": [
+                0.5,
+                0.5
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsche Gehörlosen-Skatvereinigung",
+            "urls": [
+                "dgskv.repage5.de",
+                "repage5.de",
+                "gl-skat-rommeverein-nds.de",
+                "s07579ef82799b780.jimcontent.com"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein der WiIhelm-Leuschner-Schule Darmstadt",
+            "urls": [
+                "wls-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "AEGEE (Association des Etats Generaux des Etudiants de l'Europe)-Darmstadt",
+            "urls": [
+                "aegee.org",
+                "aegee-aachen.org",
+                "aegeebarcelona.org"
+            ],
+            "confidenceLevels": [
+                0
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Europäischer Bund für Bildung und Wissenschaft (EBB/AEDE), Sektion Deutschland der Association Européene des Enseignants e.V.",
+            "urls": [
+                "ebb-aede.eu",
+                "netzwerk-ebd.de",
+                "brandigg.info",
+                "schule-bw.de"
+            ],
+            "confidenceLevels": [
+                0.2727272727272727,
+                0.18181818181818182,
+                0.2727272727272727
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kozdere Solidaritätsverein in Europa e.V. \"Avrupa Kozdere Dayanisma Dernegi e.V.\"",
+            "urls": [
+                "holding-zedeler.de",
+                "online-handelsregister.de",
+                "samandokenkoyu.com",
+                "branchenbuch.meinestadt.de"
+            ],
+            "confidenceLevels": [
+                0.2857142857142857,
+                0.14285714285714285
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Normannenhaus e.V. Darmstadt",
+            "urls": [
+                "deutsch-balten.de",
+                "bvdarmstadt.de",
+                "frauenhaus-darmstadt.de",
+                "cbf-da.de",
+                "tu-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Die Kleine Weltbühne",
+            "urls": [
+                "diekleineweltbuehne.de",
+                "gerdas.de",
+                "klotti.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Pädnetz - Südhessen e.V.",
+            "urls": [
+                "suedhessen.kinderaerztenetz.de",
+                "hessen.kinderaerztenetz.de",
+                "laekh.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Handballsport Bessungen e.V.",
+            "urls": [
+                "foerderverein-bessunger-schule.de",
+                "webwiki.de",
+                "karnevalverein-bessungen.com"
+            ],
+            "confidenceLevels": [
+                0.25,
+                0.25
+            ],
+            "sameCity": [
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "SÜPÜRGÜC INTERNATIONALER JUGENDVEREIN",
+            "urls": [
+                "opferperspektive.de",
+                "jugend-fuer-dora.de",
+                "stuttgart.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "VERBAND DER PALÄSTINENSISCHEN GEMEINDEN DEUTSCHLAND e.V.",
+            "urls": [
+                "dpg-netz.de",
+                "pgd-online.de",
+                "juedische-stimme.de",
+                "arendt-art.de"
+            ],
+            "confidenceLevels": [
+                0.4,
+                0.4,
+                0.2,
+                0.4
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Squash-Club Darmstadt 1981",
+            "urls": [
+                "sportsup.de",
+                "meinverein24.de",
+                "gto.ec08.de",
+                "maxx-timing.de",
+                "spargellauf.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Refugie International, Flüchtlings- und Hungerhilfe in der Dritten Welt e.V.",
+            "urls": [
+                "welthungerhilfe.de",
+                "hilfsorganisationen.de",
+                "uno-fluechtlingshilfe.de"
+            ],
+            "confidenceLevels": [
+                0.5,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Drachenfluggemeinschaft Südhessen e.V.",
+            "urls": [
+                "gewaltfrei-darmstadt.org",
+                "mieterbund-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "büroprojekt e.V.",
+            "urls": [
+                "nachbarschaft.immobilienscout24.de",
+                "darmstadt.stadtbranchenbuch.com",
+                "online-handelsregister.de",
+                "handelsregisterauszug1.de"
+            ],
+            "confidenceLevels": [
+                0
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "IANUS-Förderverein",
+            "urls": [
+                "ianus.tu-darmstadt.de",
+                "scientificpeace.institute",
+                "de.usembassy.gov",
+                "spektrum.de"
+            ],
+            "confidenceLevels": [
+                0
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kleingärtnerverein Darmstadt Süd-West",
+            "urls": [
+                "kgv-darmstadt-sued-west.de"
+            ],
+            "confidenceLevels": [
+                0
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kinderhilfe Hessen und Hirran",
+            "urls": [
+                "kinderhilfe-essen.de",
+                "gandhi-kinderhilfe.de",
+                "firmenwissen.de",
+                "kindervertreter.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Frauenberatungsstelle Darmstadt e.V.",
+            "urls": [
+                "frauenhelfenfrauen-da-di.de",
+                "deutscher-frauenring.de",
+                "frauenhaus-darmstadt.de",
+                "web2.cylex.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Solarflug",
+            "urls": [
+                "spiegel.de",
+                "solarflugzeuge.de",
+                "faz.net",
+                "de.euronews.com"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Netzwerk ROPE - Netzwerk Ressourcenorientierter Perspektiven für Europa e.V.",
+            "urls": [
+                "jugendarbeit-in-europa.de",
+                "firmenwissen.de",
+                "munichnetwork.com"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Jugendfußball Kreis Darmstadt e.V.",
+            "urls": [
+                "kja-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+                {
+            "name": "FHP Forschungs- und Arbeitszentrum Hochschulausbildung von Piloten",
+            "urls": [
+                "heinz-bartsch.de",
+                "aerosecure.de",
+                "nt.tu-darmstadt.de",
+                "scribd.com"
+            ],
+            "confidenceLevels": [
+                0
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Freundeskreis Botanischer Garten der Technischen Universität Darmstadt e.V.",
+            "urls": [
+                "bio.tu-darmstadt.de",
+                "tu-darmstadt.de",
+                "webwiki.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.16666666666666666
+            ],
+            "sameCity": [
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein AFS Darmstadt",
+            "urls": [
+                "afs-weiterstadt.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kurs-West Gesellschaft für physische und psychische Weiterbildung e.V.",
+            "urls": [
+                "kurs-west.de",
+                "at-kurs.de",
+                "at-kursleiter.de",
+                "stadtbranche.de",
+                "stress-consultant.de"
+            ],
+            "confidenceLevels": [
+                0.16666666666666666,
+                0.16666666666666666
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Baltic Open Darmstadt",
+            "urls": [
+                "online-handelsregister.de",
+                "get-racing.de",
+                "vkm.tu-darmstadt.de",
+                "webwiki.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "PGB Weisser Kranich Deutschland e.V.",
+            "urls": [
+                "silat-weisser-kranich.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Vereinigung alter Chatten, Darmstadt",
+            "urls": [
+                "docplayer.org",
+                "meinestadt.de",
+                "freunde.tu-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Sportverein Kamerunischer Studenten in Darmstadt",
+            "urls": [
+                "ab-darmstadt.de",
+                "hessische-hochschulen-nordsued.de",
+                "usz.tu-darmstadt.de",
+                "darmstadt.de",
+                "ccdarmstadt2016.com"
+            ],
+            "confidenceLevels": [
+                0,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Organisation Kenianischer Studierender in Hessen e.V.",
+            "urls": [
+                "online-handelsregister.de",
+                "uni-ulm.de",
+                "hessische-hochschulen-nordsued.de"
+            ],
+            "confidenceLevels": [
+                0.4,
+                0.4,
+                0.4
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein der Jugendverkehrsschule Darmstadt e.V.",
+            "urls": [
+                "jvs-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein der Christian-Morgenstern-Schule Darmstadt e.V.",
+            "urls": [
+                "firmenwissen.de",
+                "web2.cylex.de",
+                "geotechnik.tu-darmstadt.de",
+                "cylex-branchenbuch-darmstadt.de",
+                "branchenbuch.meinestadt.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Chattenhaus e. V. Darmstadt",
+            "urls": [
+                "golocal.de",
+                "11880.com",
+                "nachbarschaft.immobilienscout24.de",
+                "deutsch-balten.de",
+                "darmstadt.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Darmstädter Mieterstiftung e. V.",
+            "urls": [
+                "mieterbund-darmstadt.de",
+                "foerderverein-jazz.de",
+                "fv-prima.de",
+                "geotechnik.tu-darmstadt.de",
+                "darmstaedterheinerfest.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Musikschule Darmstadt-Dieburg e.V.",
+            "urls": [
+                "musikschule-darmstadt-dieburg.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kid's Kinderhilfe Darmstadt e.V.",
+            "urls": [
+                "firmenwissen.de",
+                "moneyhouse.de",
+                "welt.de",
+                "branchenbuch.meinestadt.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein der Freunde des Instituts für Energiesysteme und Energietechnik (FEST) e.V.",
+            "urls": [
+                "online-handelsregister.de",
+                "unternehmen1.com",
+                "firmenkontor24.com",
+                "preussen.org"
+            ],
+            "confidenceLevels": [
+                0.14285714285714285,
+                0.14285714285714285,
+                0,
+                0.2857142857142857
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Geflügelzuchtverein Darmstadt 1876 H 22",
+            "urls": [
+                "ig-eberstadt.de",
+                "darmstadt.de",
+                "scheideanstalt.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                true,
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein zur Förderung der Fachschaftentagung des Maschinenwesens im deutschsprachigen Raum e. V.",
+            "urls": [
+                "online-handelsregister.de",
+                "metafa.fsmpi.rwth-aachen.de",
+                "wbho.org"
+            ],
+            "confidenceLevels": [
+                0,
+                0.16666666666666666
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "EDO-GEMEINSCHAFT VON NIGERIA, DEUTSCHLAND",
+            "urls": [
+                "liportal.de",
+                "giz.de",
+                "auswaertiges-amt.de",
+                "subsahara-afrika-ihk.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Forschungsvereinigung Baustatik-Baupraxis",
+            "urls": [
+                "baustatik-baupraxis.de",
+                "yumpu.com",
+                "bbik.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Rhein-Main-Institut für Arbeits-, Struktur- und Umweltforschung",
+            "urls": [
+                "rhein-main-institut.de",
+                "ufz.de",
+                "fluglaerm.de",
+                "ifeu.de",
+                "arsu.de"
+            ],
+            "confidenceLevels": [
+                0.25,
+                0,
+                0.25,
+                0.5
+            ],
+            "sameCity": [
+                false,
+                true,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Unteroffizierheim-Gesellschaft Heeresinstandsetzungswerk 850 e.V.",
+            "urls": [
+                "bw-k.de",
+                "eakj.de",
+                "stampsx.com",
+                "exploredoc.com"
+            ],
+            "confidenceLevels": [
+                0.25
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Tennis Treff-Darmstadt e.V.",
+            "urls": [
+                "stadtbranche.de",
+                "onlinestreet.de",
+                "tennis-tbda.de",
+                "branchenbuch.meinestadt.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Silat Weißer Kranich (PGB)",
+            "urls": [
+                "silat-weisser-kranich.com"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Forschungsgruppe angewandte Arbeitsorganisation e. V.",
+            "urls": [
+                "nachbarschaft.immobilienscout24.de",
+                "stadtbranchenbuch.com",
+                "werhatangerufen.com",
+                "leibniz-hki.de",
+                "patentrecht.zar.kit.edu"
+            ],
+            "confidenceLevels": [
+                0,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Jagdklub Darmstadt, Verein für Jäger und Sportschützen e.V.",
+            "urls": [
+                "jagdklub-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein der Alice-Eleonoren-Schule in Darmstadt",
+            "urls": [
+                "alice-eleonoren-schule.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Unterstützungseinrichtung der Gebrüder Roeder A.G. Darmstadt e.V.",
+            "urls": [
+                "firmenkontor24.com",
+                "gmx.net",
+                "adressbuecher.genealogy.net"
+            ],
+            "confidenceLevels": [
+                0,
+                0.25,
+                0.25
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bürgerinitiative Durchbruch Holzstraße e.V.",
+            "urls": [
+                "mehr-demokratie.de",
+                "buergerinitiative-martinsried.de",
+                "betuwe-wesel.de",
+                "pro-umfahrung.de"
+            ],
+            "confidenceLevels": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Rumänisch-Orthodoxe Kirchengemeinde \"Muttergottes die Quelle des Lebens\" Darmstadt",
+            "urls": [
+                "biserica-darmstadt.de",
+                "orthodoxie-in-deutschland.de",
+                "martinsviertel-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0.4
+            ],
+            "sameCity": [
+                false,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Frankenstein-Bühne e.V.",
+            "urls": [
+                "frankenstein-buehne.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verwaltungsgesellschaft des Akademischen Chores e. V. Darmstadt",
+            "urls": [
+                "sparda-vereint.de",
+                "firmenwissen.de",
+                "akakraft-darmstadt.de",
+                "akademischerverein.info"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                false,
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Erziehung und Kultur Verein EKV e.V. \"AL-RAHMA Moschee\"",
+            "urls": [
+                "firmenwissen.de",
+                "branchenbuch.meinestadt.de",
+                "cyclopaedia.de",
+                "yellowmap.de"
+            ],
+            "confidenceLevels": [
+                0.2857142857142857,
+                0.14285714285714285,
+                0.2857142857142857,
+                0.14285714285714285
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "gefangenenRAT 1972 - der ehemaligen politischen Häftlinge der Zwangsarbeits- und Umerziehungslager der kommunistischen Staaten Europas",
+            "urls": [
+                "spiegel.de",
+                "haltenraum.com"
+            ],
+            "confidenceLevels": [
+                0
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Studentenwohnheim Dieburger Straße 193 e. V.",
+            "urls": [
+                "ketteler-wohnheim.de",
+                "studentenwohnheime.eu",
+                "heagwohnbau.de",
+                "studentenwohnheime-hamburg.de"
+            ],
+            "confidenceLevels": [
+                0.25,
+                0.25
+            ],
+            "sameCity": [
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kleingärtnerverein Karlshof 1919",
+            "urls": [
+                "kleingaertner-starkenburg.de",
+                "infodarmstadt.de",
+                "kleingaertnerverein-stossdorf.de",
+                "darmstadt-stadtlexikon.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0.3333333333333333,
+                0
+            ],
+            "sameCity": [
+                true,
+                false,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Landfrucht e. V. - wo die wilden Träume Reifen",
+            "urls": [
+                "online-handelsregister.de",
+                "firmenwissen.de",
+                "tmdb.de",
+                "germanyfirms.com"
+            ],
+            "confidenceLevels": [
+                0,
+                0.25
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Die Dorschgeknallde e.V.",
+            "urls": [
+                "moneyhouse.de",
+                "vereinsaktion.entega.de",
+                "ig-eberstadt.de",
+                "de.trustpilot.com"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Forstmeisterhaus e.V.",
+            "urls": [
+                "feudingen-tannenwaldstadion.de",
+                "xn--enzgrten-verein-3kb.de",
+                "foerderverein.schule",
+                "foerderverein-schloss-merode.de",
+                "foerderverein-kinderpalliativnetzwerk.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kinderbauhof Grundschule Bessungen e. V.",
+            "urls": [
+                "stayfriends.de",
+                "darmstadt.de",
+                "technikschule-darmstadt.de",
+                "nachbarschaft.immobilienscout24.de",
+                "fussball.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                true,
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kid's Kinderhilfe Darmstadt e.V.",
+            "urls": [
+                "firmenwissen.de",
+                "moneyhouse.de",
+                "welt.de",
+                "branchenbuch.meinestadt.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein für den Deutschen Muslimtag e.V.",
+            "urls": [
+                "online-handelsregister.de",
+                "s-df.de",
+                "assist-online.net",
+                "driv.de",
+                "markt.de"
+            ],
+            "confidenceLevels": [
+                0.25,
+                0.25,
+                0.25,
+                0.25
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Institut für biologische Umwelttechnik und Umweltberatung",
+            "urls": [
+                "ifua-btf.de",
+                "ifeu-iserlohn.de",
+                "niebuhr-internet.de",
+                "hu-berlin.de",
+                "stadtbranche.de"
+            ],
+            "confidenceLevels": [
+                0.5,
+                0.5,
+                0.5,
+                0.25,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Akademie der Hindukultur",
+            "urls": [
+                "landhaus-tao.de",
+                "judith-langton.com",
+                "academia.edu",
+                "mittwede.net",
+                "web.uni-frankfurt.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein für Förderung der Arbeit mit Kindern und Jugentlichen im Gebiet der Evangelischen Matthäusgemeinde Darmstadt e.V.",
+            "urls": [
+                "firma-online.org",
+                "ejuf.de",
+                "dfk.wir-e.de",
+                "welthaus.de",
+                "jugendsozialarbeit-evangelisch.de"
+            ],
+            "confidenceLevels": [
+                0.4444444444444444,
+                0.2222222222222222,
+                0.4444444444444444,
+                0.4444444444444444
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Bessunger Kammerchor und -orchester und Förderer e.V.",
+            "urls": [
+                "mathaes.de",
+                "stadtbranche.de",
+                "issuu.com",
+                "docplayer.org"
+            ],
+            "confidenceLevels": [
+                0.2,
+                0.2
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Darmstädter Btx-Stammtisch Bildschirmtext- Arbeitsgemeinschaft e. V.",
+            "urls": [
+                "familien-willkommen.de",
+                "arge-heag.de",
+                "darmstadt-stadtlexikon.de",
+                "ash-schneesport.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kreisverband Starkenburg der Kleingärtner e.V.",
+            "urls": [
+                "kleingaertner-starkenburg.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsche Assoziation für Raumfahrt (DARA)",
+            "urls": [
+                "dlr.de",
+                "esa.int"
+            ],
+            "confidenceLevels": [
+                0.5
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Beratungsstelle Rötelnschutz",
+            "urls": [
+                "profamilia.de",
+                "rund-ums-baby.de",
+                "familienplanung.de",
+                "cyberdoktor.de",
+                "gyn-praxis-koeln.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein Park Rosenhöhe",
+            "urls": [
+                "park-rosenhoehe.info"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Arbeiterwohlfahrt Distrikt II Nord e.V.",
+            "urls": [
+                "awo-oberhausen.de",
+                "awo.org",
+                "marktplatz-mittelstand.de",
+                "awo-hamburg.org"
+            ],
+            "confidenceLevels": [
+                0.4,
+                0.4,
+                0.2,
+                0.4
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Heydenmühle e.V.",
+            "urls": [
+                "heydenmuehle.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Otzberg-Lengfeld"
+        },
+        {
+            "name": "Kammersinfonieorchester Darmstadt e. V.",
+            "urls": [
+                "kso-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Abendkultur",
+            "urls": [
+                "stadtmuseum-fuerth.de",
+                "berlin.de",
+                "stadt-land-fuerth.de",
+                "tu-dresden.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Freie Gymnastikgruppe 82",
+            "urls": [
+                "yelp.de",
+                "ortsdienst.de",
+                "branchenbuch.meinestadt.de",
+                "pixabay.com"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Corpshausverein Obotritia Darmstadt, eingetragener Verein",
+            "urls": [
+                "firmenwissen.de",
+                "corps-obotritia.de",
+                "oeffnungszeitenbuch.de"
+            ],
+            "confidenceLevels": [
+                0.25,
+                0.25,
+                0
+            ],
+            "sameCity": [
+                false,
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Unterstützungskasse der Druckhaus Darmstadt GmbH",
+            "urls": [
+                "dialo.de",
+                "moneyhouse.de",
+                "firmenwissen.de",
+                "online-handelsregister.de",
+                "web2.cylex.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Türkischer CB-Funkverein Darmstadt Kanal 15 FM Türküngücü",
+            "urls": [
+                "unitymedia.de",
+                "fussball.de",
+                "kicker.de",
+                "metropolfm.de",
+                "sport.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.16666666666666666,
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                true,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Fachverband Umwelt u. Technologie - in der Arbeitsgemeinschaft Selbständiger u. Gewerbetreibender, Schutz- u. Selbsthilfeorganisation e.V. (ASG)",
+            "urls": [
+                "vdma.org",
+                "zvei.org",
+                "wko.at",
+                "bul.vdma.org"
+            ],
+            "confidenceLevels": [
+                0.3,
+                0.5
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Heilen fördern",
+            "urls": [
+                "raphael-schule-hamburg.de",
+                "pflegewelt.axa.de",
+                "zeit.de",
+                "dgh-ev.de",
+                "jetzt-heiler-sein.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Straßenfest Alt-Kranichstein e. V.",
+            "urls": [
+                "bodon.de",
+                "gemeinsam-fuer-roesrath.de",
+                "hamburg.de",
+                "fasanerie-aktiv.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "HFC Kraft Darmstadt",
+            "urls": [
+                "hallescherfc.de",
+                "firmenwissen.de",
+                "akakraft-darmstadt.de",
+                "moneyhouse.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Die Fallschirmjäger Gruppe e.V.",
+            "urls": [
+                "fallschirmjaeger-nva.de",
+                "fallschirmjaegerkaserne.de",
+                "firmenwissen.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Eberstädter Spiel- und Jugendhaus e. V.",
+            "urls": [
+                "familien-willkommen.de",
+                "darmstadt.de",
+                "eberstadt-online.de",
+                "ig-eberstadt.de",
+                "stadtbranchenbuch.com"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                true,
+                true,
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein der Freunde und Förderer des Konzertchors Darmstadt",
+            "urls": [
+                "konzertchor-darmstadt.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "\"KinderStärken\" - Verein zur Förderung der Kindertagesstätte mit Hort Evangelische Martinsgemeinde",
+            "urls": [
+                "stadtbranche.de",
+                "evang-verein.net",
+                "foerderverein-kita-heli.de",
+                "pusteblume-wegberg.de",
+                "malmsheim-evangelisch.de"
+            ],
+            "confidenceLevels": [
+                0.14285714285714285,
+                0.2857142857142857,
+                0.42857142857142855,
+                0.42857142857142855,
+                0.42857142857142855
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Hessischer Automobil-Club e.V. im ADAC",
+            "urls": [
+                "darmstadt-stadtlexikon.de",
+                "adac.de",
+                "trialsport.de",
+                "ortsdienst.de"
+            ],
+            "confidenceLevels": [
+                0.25,
+                0.5,
+                0,
+                0.25
+            ],
+            "sameCity": [
+                true,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Deutsch-Französischer Schüleraustausch e.V.",
+            "urls": [
+                "dfjw.org",
+                "dfgk-kisslegg.de",
+                "schiller-offenburg.de",
+                "dedocz.com"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Spiel- und Sportgemeinschaft Eberstadt-Süd",
+            "urls": [
+                "firmenwissen.de",
+                "lions.de",
+                "darmstadt.de",
+                "darmstaedter-sportstiftung.de",
+                "software-ag-stiftung.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                true,
+                true,
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "e - Learning Medizin",
+            "urls": [
+                "medknowledge.de",
+                "med.moodle.elearning.lmu.de",
+                "umm.uni-heidelberg.de",
+                "uni-wuerzburg.de",
+                "elearning-allgemeinmedizin.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Nurs Sosyal ve Dayanisma Dernegi e.V.",
+            "urls": [
+                "yesiloba.net",
+                "moneyhouse.de",
+                "yardimlasmavekultur.blogspot.com",
+                "online-handelsregister.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "EUMETSAT Pensionäre e.V.",
+            "urls": [
+                "firmenwissen.de",
+                "online-handelsregister.de",
+                "henkel-pensionaere.de",
+                "vempev.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0.3333333333333333,
+                0.3333333333333333
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Tamilische KommilitonInnen Gemeinschaft Deutschland",
+            "urls": [
+                "assindia.unitas.org",
+                "welt.de",
+                "lianewobbe.de",
+                "religion-online.info"
+            ],
+            "confidenceLevels": [
+                0,
+                0.25,
+                0.25,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Verein zur Förderung ökologischer nachwachsender Rohstoffe",
+            "urls": [
+                "mediathek.fnr.de",
+                "fnr.de",
+                "ine-ev.de",
+                "biomasse-freiberg.de"
+            ],
+            "confidenceLevels": [
+                0.2,
+                0.2,
+                0.4
+            ],
+            "sameCity": [
+                false,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kinder- und Jugendumweltbildungsstätte NaturFreundeHaus-Riedberg",
+            "urls": [
+                "nfh-riedberg.de",
+                "spendenportal.de",
+                "gruppenreisen.net",
+                "haus-huette-zeltplatz.de"
+            ],
+            "confidenceLevels": [
+                0.3333333333333333,
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Unwort-Bilder e.V.",
+            "urls": [
+                "unwort-bilder.de"
+            ],
+            "confidenceLevels": [
+                1
+            ],
+            "sameCity": [
+                true
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Förderverein der Andersenschule",
+            "urls": [
+                "andersenschule.de",
+                "foerderverein-hca-schule.jimdo.com",
+                "andersenschule-darmstadt.de",
+                "andersenschule-lippstadt.de",
+                "andersen-schule.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                true,
+                false,
+                true,
+                false,
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Böllsteiner Kreis",
+            "urls": [
+                "nachbarschaft.immobilienscout24.de",
+                "deutsche-digitale-bibliothek.de",
+                "hansreinhardt.de"
+            ],
+            "confidenceLevels": [
+                0
+            ],
+            "sameCity": [
+                false
+            ],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Merck'scher - Kindertagesstätten-Verein",
+            "urls": [
+                "branchenbuch.meinestadt.de",
+                "firmenwissen.de",
+                "merck.de",
+                "erfolgsfaktor-familie.de",
+                "berichte.merck.de"
+            ],
+            "confidenceLevels": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "sameCity": [
+                false,
+                false,
+                true,
+                false
+            ],
+            "city": "Darmstadt"
+        },
         {
             "name": "Förderverein der Darmstädter Sportstiftung",
             "urls": [
@@ -16044,6 +19126,24 @@
             "name": "Luisen Bildungsverein",
             "urls": [
                 "lbc-ev.de"
+            ],
+            "confidenceLevels": [1],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "European Urban Research Association",
+            "urls": [
+                "eura.org",
+                "eura2015.org",
+                "moneyhouse.de"
+            ],
+            "confidenceLevels": [],
+            "city": "Darmstadt"
+        },
+        {
+            "name": "Kranichsteiner Grillfreunde",
+            "urls": [
+                "kranichsteiner-grillfreunde.de"
             ],
             "confidenceLevels": [1],
             "city": "Darmstadt"
