@@ -75,18 +75,19 @@ var q = async.queue(function (url, cb) {
         var importantWords = '';
         if (!keywords) {
             try {
-                var paragraphs = $($.html()).find('p, h1, h2, h3, h4, h5, tr, a');
+                var paragraphs = $($.html()).find('p, h1, h2, h3, h4, h5, td, a, body, div');
                 //Remove stop words and digits
                 var extraction_result = keyword_extractor.extract(paragraphs.text(), {
                     language: "german",
-                    return_changed_case: false,
+                    return_changed_case: true,
                     remove_duplicates: false,
                     remove_digits: true
 
                 });
                 var modifiedText = '';
                 extraction_result.forEach(function (keyword) {
-                    modifiedText += keyword + ' ';
+                    if (!/darmstadt/i.test(keyword))
+                        modifiedText += keyword + ' ';
                 });
                 var tfidf = new TfIdf();
                 var importantWords = '';
